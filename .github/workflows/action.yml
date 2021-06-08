@@ -1,9 +1,7 @@
 name: "Update data"
 description: 'Fetch data from Folkhälsomyndigheten and update the local json file'
 
-on:
-  schedule:
-    - cron: '0 1 * * *'
+on: push
 
 jobs:
   update-data:
