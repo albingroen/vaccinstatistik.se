@@ -23,5 +23,5 @@ jobs:
         run: node update-data.js
 
       - name: Commit new data file
-        run: git commit -m ":sparkles: Automatically update data.json"
+        run: git commit -m "Automatically update data.json"
 
