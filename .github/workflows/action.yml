@@ -1,11 +1,11 @@
 name: "Update data"
-description: 'Fetch data from Folkhälsomyndigheten and update the local json file'
 
 on: push
 
 jobs:
   update-data:
     name: Update data
+    runs-on: ubuntu-latest
     steps:
       - name: Update json file
         run: node ./update-data.js
