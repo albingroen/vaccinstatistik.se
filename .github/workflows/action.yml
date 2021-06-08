@@ -25,7 +25,7 @@ jobs:
       - name: Commit files
         run: |
           git config --local user.name "albingroen"
-          git add ./data.json
+          git add ./vaccinations.json
           git commit -m "Automatically update data.json"
 
       - name: Push changes
