@@ -1,13 +1,14 @@
 import { HTMLAttributes } from "react";
 
 type Card = {
-  heading: string;
-  description: string;
+  heading?: string;
+  description?: string;
 };
 
 export default function Card({
   heading,
   description,
+  children,
   ...rest
 }: Card & HTMLAttributes<HTMLDivElement>) {
   return (
@@ -20,11 +21,17 @@ export default function Card({
         .filter(Boolean)
         .join(" ")}
     >
-      <p className="text-xl font-medium leading-snug text-gray-500">
-        {heading}
-      </p>
+      {children || (
+        <>
+          <p className="text-xl font-medium leading-snug text-gray-500">
+            {heading}
+          </p>
 
-      <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">{description}</p>
+          <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
+            {description}
+          </p>
+        </>
+      )}
     </div>
   );
 }
