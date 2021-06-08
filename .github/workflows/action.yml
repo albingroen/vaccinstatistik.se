@@ -1,6 +1,8 @@
 name: "Update data"
 
-on: push
+on:
+  schedule:
+    - crone: '0 8 * * *'
 
 jobs:
   update-data:
