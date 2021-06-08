@@ -8,6 +8,6 @@ on:
 jobs:
   update-data:
     name: Update data
-    runs:
-      using: 'node12'
-      main: 'update-data.js'
+    steps:
+      - name: Update json file
+        run: node ./update-data.js
