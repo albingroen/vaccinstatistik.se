@@ -22,6 +22,14 @@ jobs:
       - name: Run update script
         run: node update-data.js
 
-      - name: Commit new data file
-        run: git commit -m "Automatically update data.json"
+      - name: Commit files
+        run: |
+          git config --local user.name "albingroen"
+          git add ./data.json
+          git commit -m "Automatically update data.json"
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
