@@ -1,10 +1,13 @@
 name: "Update data"
 description: 'Fetch data from Folkhälsomyndigheten and update the local json file'
 
-runs:
-  using: 'node12'
-  main: 'update-data.js'
-
 on:
   schedule:
     - cron: '0 1 * * *'
+
+jobs:
+  update-data:
+    name: Update data
+    runs:
+      using: 'node12'
+      main: 'update-data.js'
