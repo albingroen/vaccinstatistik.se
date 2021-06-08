@@ -9,14 +9,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
       - name: Update data.json
         uses: actions/setup-node@v1
+
         with:
           node-version: ${{ matrix.node-version }}
+
       - name: Install dependencies
-      - run: yarn
+        run: yarn
+
       - name: Run update script
-      - run: node update-data.js
+        run: node update-data.js
+
       - name: Commit new data file
-      - run: git commit -m ":sparkles: Automatically update data.json"
+        run: git commit -m ":sparkles: Automatically update data.json"
 
