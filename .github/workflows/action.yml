@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update json file
-        run: node ./update-data.js
+        run: node update-data.js
