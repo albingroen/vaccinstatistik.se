@@ -24,6 +24,9 @@ jobs:
       - name: Run update script
         run: node update-data.js
 
+      - name: Update script_ran_at file
+        run: echo "$(date +%F)" > script_ran_at
+
       - name: Commit files
         run: |
           git config --local user.name "albingroen"
