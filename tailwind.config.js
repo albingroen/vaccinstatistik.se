@@ -12,6 +12,7 @@ module.exports = {
   },
   plugins: [
     require('tailwindcss-scroll-snap'),
-    require('tailwind-scrollbar')
+    require('tailwind-scrollbar'),
+    require('@tailwindcss/forms')
   ],
 }

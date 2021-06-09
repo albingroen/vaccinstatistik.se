@@ -13,6 +13,7 @@ import {
   YAxis,
   Tooltip,
 } from "recharts";
+import { useState } from "react";
 
 const chartData = data.filter((record) => record.region.includes("Sverige"));
 
@@ -23,8 +24,12 @@ const url = "https://vaccinstatistik.se";
 const title = "vaccinstatistik.se";
 
 export default function Home() {
-  const total = getTotal(data as Record[]);
+  // State
+  const [search, setSearch] = useState<string>();
+
+  // Data
   const regionTotals = getRegionTotals(data as Record[]);
+  const total = getTotal(data as Record[]);
 
   return (
     <>
@@ -55,17 +60,31 @@ export default function Home() {
             heading="Antal vaccinerade i Sverige"
             className="mt-6"
           />
+
+          <input
+            className="block w-full mt-6 border-gray-200 bg-none shadow-sm focus:ring-green-300 focus:border-green-300 sm:text-sm rounded-md"
+            onChange={(e) => setSearch(e.currentTarget.value)}
+            placeholder="Sök på en region..."
+            value={search}
+            type="text"
+          />
         </div>
 
         <div className="w-full p-4 overflow-auto whitespace-nowrap snap snap-x scrollbar scrollbar-thumb-gray-300 scrollbar-track-gray-100 scrollbar-thin">
-          {regionTotals.map((record) => (
-            <Card
-              className="inline-block mr-4 w-72 snap-ml-4 sm:snap-ml-0.5 snap-center sm:snap-start"
-              description={record.amount.toLocaleString()}
-              heading={record.region}
-              key={record.region}
-            />
-          ))}
+          {regionTotals
+            .filter((record) =>
+              search
+                ? record.region.toLowerCase().includes(search.toLowerCase())
+                : true
+            )
+            .map((record) => (
+              <Card
+                className="inline-block mr-4 w-72 snap-ml-4 sm:snap-ml-0.5 snap-center sm:snap-start"
+                description={record.amount.toLocaleString()}
+                heading={record.region}
+                key={record.region}
+              />
+            ))}
         </div>
 
         <div className="px-4 mt-4 sm:px-0">
