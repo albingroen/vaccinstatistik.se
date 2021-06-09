@@ -3,4 +3,5 @@ export type Record = {
   year: number
   region: string
   amount: number
+  progress: number
 }

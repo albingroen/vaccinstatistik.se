@@ -3,12 +3,14 @@ import { HTMLAttributes } from "react";
 type Card = {
   heading?: string;
   description?: string;
+  suffix?: string;
 };
 
 export default function Card({
   heading,
   description,
   children,
+  suffix,
   ...rest
 }: Card & HTMLAttributes<HTMLDivElement>) {
   return (
@@ -27,9 +29,13 @@ export default function Card({
             {heading}
           </p>
 
-          <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
-            {description}
-          </p>
+          <div className="flex items-baseline space-x-3">
+            <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
+              {description}
+            </p>
+
+            <p className="text-lg text-gray-500 text-green-600">{suffix}</p>
+          </div>
         </>
       )}
     </div>

@@ -56,7 +56,8 @@ export default function Home() {
           <p className="text-gray-500">Statistik från vecka {total.week}</p>
 
           <Card
-            description={total.amount.toLocaleString()}
+            suffix={`(~${Math.round(total.progress * 100)}%)`}
+            description={`${total.amount.toLocaleString()}`}
             heading="Antal vaccinerade i Sverige"
             className="mt-6"
           />
@@ -80,6 +81,7 @@ export default function Home() {
             .map((record) => (
               <Card
                 className="inline-block mr-4 w-72 snap-ml-4 sm:snap-ml-0.5 snap-center sm:snap-start"
+                suffix={`(~${Math.round(record.progress * 100)}%)`}
                 description={record.amount.toLocaleString()}
                 heading={record.region}
                 key={record.region}

@@ -1,3029 +1,3534 @@
 [
   {
+    "progress": 0.00015248151629759899,
     "week": 52,
     "year": 2020,
     "region": "Stockholm",
     "amount": 285
   },
   {
+    "progress": 0.00002611639424002925,
     "week": 52,
     "year": 2020,
     "region": "Uppsala",
     "amount": 8
   },
   {
+    "progress": 0.0004955380218634792,
     "week": 52,
     "year": 2020,
     "region": "Södermanland",
     "amount": 116
   },
   {
+    "progress": 0.0005699606430020448,
     "week": 52,
     "year": 2020,
     "region": "Östergötland",
     "amount": 211
   },
   {
+    "progress": 0.00015077561782939213,
     "week": 52,
     "year": 2020,
     "region": "Jönköping",
     "amount": 43
   },
   {
+    "progress": 0.00018336442097941893,
     "week": 52,
     "year": 2020,
     "region": "Kronoberg",
     "amount": 29
   },
   {
+    "progress": 0,
     "week": 52,
     "year": 2020,
     "region": "Kalmar",
     "amount": 0
   },
   {
+    "progress": 0,
     "week": 52,
     "year": 2020,
     "region": "Gotland",
     "amount": 0
   },
   {
+    "progress": 0.0014104372355430183,
     "week": 52,
     "year": 2020,
     "region": "Blekinge",
     "amount": 179
   },
   {
+    "progress": 0.0002707365870670509,
     "week": 52,
     "year": 2020,
     "region": "Skåne",
     "amount": 295
   },
   {
+    "progress": 0.00017443006871027924,
     "week": 52,
     "year": 2020,
     "region": "Halland",
     "amount": 46
   },
   {
+    "progress": 0.0002049426926260744,
     "week": 52,
     "year": 2020,
     "region": "Västra Götaland",
     "amount": 281
   },
   {
+    "progress": 0.00018880102567254877,
     "week": 52,
     "year": 2020,
     "region": "Värmland",
     "amount": 43
   },
   {
+    "progress": 0.0010100424714580211,
     "week": 52,
     "year": 2020,
     "region": "Örebro",
     "amount": 244
   },
   {
+    "progress": 0.00003199488081906895,
     "week": 52,
     "year": 2020,
     "region": "Västmanland",
     "amount": 7
   },
   {
+    "progress": 0.0008289630980532456,
     "week": 52,
     "year": 2020,
     "region": "Dalarna",
     "amount": 190
   },
   {
+    "progress": 0.0008523295558319345,
     "week": 52,
     "year": 2020,
     "region": "Gävleborg",
     "amount": 196
   },
   {
+    "progress": 0,
     "week": 52,
     "year": 2020,
     "region": "Västernorrland",
     "amount": 0
   },
   {
+    "progress": 0.0006024730082529239,
     "week": 52,
     "year": 2020,
     "region": "Jämtland",
     "amount": 63
   },
   {
+    "progress": 0,
     "week": 52,
     "year": 2020,
     "region": "Västerbotten",
     "amount": 0
   },
   {
+    "progress": 0,
     "week": 52,
     "year": 2020,
     "region": "Norrbotten",
     "amount": 0
   },
   {
+    "progress": 0.0019126015336954382,
     "week": 53,
     "year": 2020,
     "region": "| Sverige |",
     "amount": 15664
   },
   {
+    "progress": 0.001178120346973028,
     "week": 53,
     "year": 2020,
     "region": "Stockholm",
     "amount": 2202
   },
   {
+    "progress": 0.0007932854750408885,
     "week": 53,
     "year": 2020,
     "region": "Uppsala",
     "amount": 243
   },
   {
+    "progress": 0.005352665012025341,
     "week": 53,
     "year": 2020,
     "region": "Södermanland",
     "amount": 1253
   },
   {
+    "progress": 0.005861680546513921,
     "week": 53,
     "year": 2020,
     "region": "Östergötland",
     "amount": 2170
   },
   {
+    "progress": 0.004046396813374849,
     "week": 53,
     "year": 2020,
     "region": "Jönköping",
     "amount": 1154
   },
   {
+    "progress": 0.0013910404350162815,
     "week": 53,
     "year": 2020,
     "region": "Kronoberg",
     "amount": 220
   },
   {
+    "progress": 0.0014902676399026764,
     "week": 53,
     "year": 2020,
     "region": "Kalmar",
     "amount": 294
   },
   {
+    "progress": 0.004037355735899841,
     "week": 53,
     "year": 2020,
     "region": "Gotland",
     "amount": 198
   },
   {
+    "progress": 0.005279290211250404,
     "week": 53,
     "year": 2020,
     "region": "Blekinge",
     "amount": 670
   },
   {
+    "progress": 0.0013233971476294488,
     "week": 53,
     "year": 2020,
     "region": "Skåne",
     "amount": 1442
   },
   {
+    "progress": 0.0008683583855359553,
     "week": 53,
     "year": 2020,
     "region": "Halland",
     "amount": 229
   },
   {
+    "progress": 0.0017102868833030053,
     "week": 53,
     "year": 2020,
     "region": "Västra Götaland",
     "amount": 2345
   },
   {
+    "progress": 0.0008649721408719095,
     "week": 53,
     "year": 2020,
     "region": "Värmland",
     "amount": 197
   },
   {
+    "progress": 0.005526256964739583,
     "week": 53,
     "year": 2020,
     "region": "Örebro",
     "amount": 1335
   },
   {
+    "progress": 0.00020111067943414767,
     "week": 53,
     "year": 2020,
     "region": "Västmanland",
     "amount": 44
   },
   {
+    "progress": 0.0008376890254011745,
     "week": 53,
     "year": 2020,
     "region": "Dalarna",
     "amount": 192
   },
   {
+    "progress": 0.0030875203297993548,
     "week": 53,
     "year": 2020,
     "region": "Gävleborg",
     "amount": 710
   },
   {
+    "progress": 0.0011201243900692533,
     "week": 53,
     "year": 2020,
     "region": "Västernorrland",
     "amount": 219
   },
   {
+    "progress": 0.0018934865973663322,
     "week": 53,
     "year": 2020,
     "region": "Jämtland",
     "amount": 198
   },
   {
+    "progress": 0.000617905529110216,
     "week": 53,
     "year": 2020,
     "region": "Västerbotten",
     "amount": 135
   },
   {
+    "progress": 0.0010524452138332612,
     "week": 53,
     "year": 2020,
     "region": "Norrbotten",
     "amount": 214
   },
   {
+    "progress": 0.006198250233336411,
     "week": 1,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 50763
   },
   {
+    "progress": 0.003842534210699494,
     "week": 1,
     "year": 2021,
     "region": "Stockholm",
     "amount": 7182
   },
   {
+    "progress": 0.004462638865764998,
     "week": 1,
     "year": 2021,
     "region": "Uppsala",
     "amount": 1367
   },
   {
+    "progress": 0.017177227464767676,
     "week": 1,
     "year": 2021,
     "region": "Södermanland",
     "amount": 4021
   },
   {
+    "progress": 0.011755775916326537,
     "week": 1,
     "year": 2021,
     "region": "Östergötland",
     "amount": 4352
   },
   {
+    "progress": 0.005834665769025779,
     "week": 1,
     "year": 2021,
     "region": "Jönköping",
     "amount": 1664
   },
   {
+    "progress": 0.007821440991432456,
     "week": 1,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 1237
   },
   {
+    "progress": 0.009428223844282239,
     "week": 1,
     "year": 2021,
     "region": "Kalmar",
     "amount": 1860
   },
   {
+    "progress": 0.010113780025284451,
     "week": 1,
     "year": 2021,
     "region": "Gotland",
     "amount": 496
   },
   {
+    "progress": 0.01308003246369503,
     "week": 1,
     "year": 2021,
     "region": "Blekinge",
     "amount": 1660
   },
   {
+    "progress": 0.0041335511462711775,
     "week": 1,
     "year": 2021,
     "region": "Skåne",
     "amount": 4504
   },
   {
+    "progress": 0.0014295681718212016,
     "week": 1,
     "year": 2021,
     "region": "Halland",
     "amount": 377
   },
   {
+    "progress": 0.005191395324243408,
     "week": 1,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 7118
   },
   {
+    "progress": 0.004948343161231685,
     "week": 1,
     "year": 2021,
     "region": "Värmland",
     "amount": 1127
   },
   {
+    "progress": 0.012907018139369304,
     "week": 1,
     "year": 2021,
     "region": "Örebro",
     "amount": 3118
   },
   {
+    "progress": 0.00036108508352949243,
     "week": 1,
     "year": 2021,
     "region": "Västmanland",
     "amount": 79
   },
   {
+    "progress": 0.01357754295337737,
     "week": 1,
     "year": 2021,
     "region": "Dalarna",
     "amount": 3112
   },
   {
+    "progress": 0.008832047591299281,
     "week": 1,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 2031
   },
   {
+    "progress": 0.009999283938746075,
     "week": 1,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 1955
   },
   {
+    "progress": 0.010538496112614638,
     "week": 1,
     "year": 2021,
     "region": "Jämtland",
     "amount": 1102
   },
   {
+    "progress": 0.005085133650677407,
     "week": 1,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 1111
   },
   {
+    "progress": 0.00634417909273321,
     "week": 1,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 1290
   },
   {
+    "progress": 0.01567310045114148,
     "week": 2,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 128361
   },
   {
+    "progress": 0.012168025000548399,
     "week": 2,
     "year": 2021,
     "region": "Stockholm",
     "amount": 22743
   },
   {
+    "progress": 0.016564323046738553,
     "week": 2,
     "year": 2021,
     "region": "Uppsala",
     "amount": 5074
   },
   {
+    "progress": 0.03048413210360162,
     "week": 2,
     "year": 2021,
     "region": "Södermanland",
     "amount": 7136
   },
   {
+    "progress": 0.017998330636600116,
     "week": 2,
     "year": 2021,
     "region": "Östergötland",
     "amount": 6663
   },
   {
+    "progress": 0.024359028303739236,
     "week": 2,
     "year": 2021,
     "region": "Jönköping",
     "amount": 6947
   },
   {
+    "progress": 0.01426448736998514,
     "week": 2,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 2256
   },
   {
+    "progress": 0.022865977291159773,
     "week": 2,
     "year": 2021,
     "region": "Kalmar",
     "amount": 4511
   },
   {
+    "progress": 0.023897883446841482,
     "week": 2,
     "year": 2021,
     "region": "Gotland",
     "amount": 1172
   },
   {
+    "progress": 0.022078464435706914,
     "week": 2,
     "year": 2021,
     "region": "Blekinge",
     "amount": 2802
   },
   {
+    "progress": 0.013709366568161378,
     "week": 2,
     "year": 2021,
     "region": "Skåne",
     "amount": 14938
   },
   {
+    "progress": 0.011061141531040968,
     "week": 2,
     "year": 2021,
     "region": "Halland",
     "amount": 2917
   },
   {
+    "progress": 0.011929706844429533,
     "week": 2,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 16357
   },
   {
+    "progress": 0.011521253287552744,
     "week": 2,
     "year": 2021,
     "region": "Värmland",
     "amount": 2624
   },
   {
+    "progress": 0.02341725516818863,
     "week": 2,
     "year": 2021,
     "region": "Örebro",
     "amount": 5657
   },
   {
+    "progress": 0.023438535548597938,
     "week": 2,
     "year": 2021,
     "region": "Västmanland",
     "amount": 5128
   },
   {
+    "progress": 0.013856772628511095,
     "week": 2,
     "year": 2021,
     "region": "Dalarna",
     "amount": 3176
   },
   {
+    "progress": 0.020168900407900574,
     "week": 2,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 4638
   },
   {
+    "progress": 0.024376770972922655,
     "week": 2,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 4766
   },
   {
+    "progress": 0.020034618290315484,
     "week": 2,
     "year": 2021,
     "region": "Jämtland",
     "amount": 2095
   },
   {
+    "progress": 0.014907543024533138,
     "week": 2,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 3257
   },
   {
+    "progress": 0.017232560884447416,
     "week": 2,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 3504
   },
   {
+    "progress": 0.02821502408090363,
     "week": 3,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 231078
   },
   {
+    "progress": 0.018536937176010217,
     "week": 3,
     "year": 2021,
     "region": "Stockholm",
     "amount": 34647
   },
   {
+    "progress": 0.0252676114272283,
     "week": 3,
     "year": 2021,
     "region": "Uppsala",
     "amount": 7740
   },
   {
+    "progress": 0.04527765080802601,
     "week": 3,
     "year": 2021,
     "region": "Södermanland",
     "amount": 10599
   },
   {
+    "progress": 0.030567178370668906,
     "week": 3,
     "year": 2021,
     "region": "Östergötland",
     "amount": 11316
   },
   {
+    "progress": 0.03630536620943084,
     "week": 3,
     "year": 2021,
     "region": "Jönköping",
     "amount": 10354
   },
   {
+    "progress": 0.026676361796971325,
     "week": 3,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 4219
   },
   {
+    "progress": 0.041286496350364965,
     "week": 3,
     "year": 2021,
     "region": "Kalmar",
     "amount": 8145
   },
   {
+    "progress": 0.04410505281187554,
     "week": 3,
     "year": 2021,
     "region": "Gotland",
     "amount": 2163
   },
   {
+    "progress": 0.03297586497624319,
     "week": 3,
     "year": 2021,
     "region": "Blekinge",
     "amount": 4185
   },
   {
+    "progress": 0.026307336502633945,
     "week": 3,
     "year": 2021,
     "region": "Skåne",
     "amount": 28665
   },
   {
+    "progress": 0.026790183379089626,
     "week": 3,
     "year": 2021,
     "region": "Halland",
     "amount": 7065
   },
   {
+    "progress": 0.026703084715724065,
     "week": 3,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 36613
   },
   {
+    "progress": 0.028640676522372923,
     "week": 3,
     "year": 2021,
     "region": "Värmland",
     "amount": 6523
   },
   {
+    "progress": 0.039358540240257645,
     "week": 3,
     "year": 2021,
     "region": "Örebro",
     "amount": 9508
   },
   {
+    "progress": 0.039175446214319995,
     "week": 3,
     "year": 2021,
     "region": "Västmanland",
     "amount": 8571
   },
   {
+    "progress": 0.043564192284535036,
     "week": 3,
     "year": 2021,
     "region": "Dalarna",
     "amount": 9985
   },
   {
+    "progress": 0.030953478461284236,
     "week": 3,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 7118
   },
   {
+    "progress": 0.03977720265556431,
     "week": 3,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 7777
   },
   {
+    "progress": 0.032925628054203446,
     "week": 3,
     "year": 2021,
     "region": "Jämtland",
     "amount": 3443
   },
   {
+    "progress": 0.0256590992310509,
     "week": 3,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 5606
   },
   {
+    "progress": 0.03361923122319707,
     "week": 3,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 6836
   },
   {
+    "progress": 0.03598191526823553,
     "week": 4,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 294688
   },
   {
+    "progress": 0.023818682891413364,
     "week": 4,
     "year": 2021,
     "region": "Stockholm",
     "amount": 44519
   },
   {
+    "progress": 0.034290825637158406,
     "week": 4,
     "year": 2021,
     "region": "Uppsala",
     "amount": 10504
   },
   {
+    "progress": 0.04929748941641854,
     "week": 4,
     "year": 2021,
     "region": "Södermanland",
     "amount": 11540
   },
   {
+    "progress": 0.03882215337073644,
     "week": 4,
     "year": 2021,
     "region": "Östergötland",
     "amount": 14372
   },
   {
+    "progress": 0.04597604420881371,
     "week": 4,
     "year": 2021,
     "region": "Jönköping",
     "amount": 13112
   },
   {
+    "progress": 0.033587303594574944,
     "week": 4,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 5312
   },
   {
+    "progress": 0.05810016220600162,
     "week": 4,
     "year": 2021,
     "region": "Kalmar",
     "amount": 11462
   },
   {
+    "progress": 0.08276579258594674,
     "week": 4,
     "year": 2021,
     "region": "Gotland",
     "amount": 4059
   },
   {
+    "progress": 0.043534445398744,
     "week": 4,
     "year": 2021,
     "region": "Blekinge",
     "amount": 5525
   },
   {
+    "progress": 0.035826251353682934,
     "week": 4,
     "year": 2021,
     "region": "Skåne",
     "amount": 39037
   },
   {
+    "progress": 0.03984210286823704,
     "week": 4,
     "year": 2021,
     "region": "Halland",
     "amount": 10507
   },
   {
+    "progress": 0.03209140006491067,
     "week": 4,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 44001
   },
   {
+    "progress": 0.04410918846294012,
     "week": 4,
     "year": 2021,
     "region": "Värmland",
     "amount": 10046
   },
   {
+    "progress": 0.044996564199789715,
     "week": 4,
     "year": 2021,
     "region": "Örebro",
     "amount": 10870
   },
   {
+    "progress": 0.04678108645473867,
     "week": 4,
     "year": 2021,
     "region": "Västmanland",
     "amount": 10235
   },
   {
+    "progress": 0.045527525937819044,
     "week": 4,
     "year": 2021,
     "region": "Dalarna",
     "amount": 10435
   },
   {
+    "progress": 0.04141625862113951,
     "week": 4,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 9524
   },
   {
+    "progress": 0.0428204629847479,
     "week": 4,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 8372
   },
   {
+    "progress": 0.03669347512168999,
     "week": 4,
     "year": 2021,
     "region": "Jämtland",
     "amount": 3837
   },
   {
+    "progress": 0.03661204686927865,
     "week": 4,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 7999
   },
   {
+    "progress": 0.04632726128181926,
     "week": 4,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 9420
   },
   {
+    "progress": 0.04130127723295985,
     "week": 5,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 338253
   },
   {
+    "progress": 0.028311804904982616,
     "week": 5,
     "year": 2021,
     "region": "Stockholm",
     "amount": 52917
   },
   {
+    "progress": 0.04154791868660653,
     "week": 5,
     "year": 2021,
     "region": "Uppsala",
     "amount": 12727
   },
   {
+    "progress": 0.050860997312987793,
     "week": 5,
     "year": 2021,
     "region": "Södermanland",
     "amount": 11906
   },
   {
+    "progress": 0.04538345385344718,
     "week": 5,
     "year": 2021,
     "region": "Östergötland",
     "amount": 16801
   },
   {
+    "progress": 0.04742769783163623,
     "week": 5,
     "year": 2021,
     "region": "Jönköping",
     "amount": 13526
   },
   {
+    "progress": 0.042749201732477635,
     "week": 5,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 6761
   },
   {
+    "progress": 0.06883110300081104,
     "week": 5,
     "year": 2021,
     "region": "Kalmar",
     "amount": 13579
   },
   {
+    "progress": 0.098527792504384,
     "week": 5,
     "year": 2021,
     "region": "Gotland",
     "amount": 4832
   },
   {
+    "progress": 0.05498341357329152,
     "week": 5,
     "year": 2021,
     "region": "Blekinge",
     "amount": 6978
   },
   {
+    "progress": 0.0420284135753749,
     "week": 5,
     "year": 2021,
     "region": "Skåne",
     "amount": 45795
   },
   {
+    "progress": 0.048518102807565716,
     "week": 5,
     "year": 2021,
     "region": "Halland",
     "amount": 12795
   },
   {
+    "progress": 0.03599187522563753,
     "week": 5,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 49349
   },
   {
+    "progress": 0.05364583562016746,
     "week": 5,
     "year": 2021,
     "region": "Värmland",
     "amount": 12218
   },
   {
+    "progress": 0.05034482187652645,
     "week": 5,
     "year": 2021,
     "region": "Örebro",
     "amount": 12162
   },
   {
+    "progress": 0.0491167127545307,
     "week": 5,
     "year": 2021,
     "region": "Västmanland",
     "amount": 10746
   },
   {
+    "progress": 0.04582420746764863,
     "week": 5,
     "year": 2021,
     "region": "Dalarna",
     "amount": 10503
   },
   {
+    "progress": 0.054001165430209,
     "week": 5,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 12418
   },
   {
+    "progress": 0.04641611342410262,
     "week": 5,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 9075
   },
   {
+    "progress": 0.03801317790167258,
     "week": 5,
     "year": 2021,
     "region": "Jämtland",
     "amount": 3975
   },
   {
+    "progress": 0.04338612229952398,
     "week": 5,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 9479
   },
   {
+    "progress": 0.04775839005390093,
     "week": 5,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 9711
   },
   {
+    "progress": 0.046851411471604265,
     "week": 6,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 383708
   },
   {
+    "progress": 0.030802871360707598,
     "week": 6,
     "year": 2021,
     "region": "Stockholm",
     "amount": 57573
   },
   {
+    "progress": 0.04898782649573487,
     "week": 6,
     "year": 2021,
     "region": "Uppsala",
     "amount": 15006
   },
   {
+    "progress": 0.05476976705441093,
     "week": 6,
     "year": 2021,
     "region": "Södermanland",
     "amount": 12821
   },
   {
+    "progress": 0.05044016628804352,
     "week": 6,
     "year": 2021,
     "region": "Östergötland",
     "amount": 18673
   },
   {
+    "progress": 0.05412143398131785,
     "week": 6,
     "year": 2021,
     "region": "Jönköping",
     "amount": 15435
   },
   {
+    "progress": 0.046991875059277294,
     "week": 6,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 7432
   },
   {
+    "progress": 0.07446776155717762,
     "week": 6,
     "year": 2021,
     "region": "Kalmar",
     "amount": 14691
   },
   {
+    "progress": 0.10409444965539741,
     "week": 6,
     "year": 2021,
     "region": "Gotland",
     "amount": 5105
   },
   {
+    "progress": 0.06505346266281095,
     "week": 6,
     "year": 2021,
     "region": "Blekinge",
     "amount": 8256
   },
   {
+    "progress": 0.04509278464051688,
     "week": 6,
     "year": 2021,
     "region": "Skåne",
     "amount": 49134
   },
   {
+    "progress": 0.06059928104476027,
     "week": 6,
     "year": 2021,
     "region": "Halland",
     "amount": 15981
   },
   {
+    "progress": 0.04323488547641883,
     "week": 6,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 59280
   },
   {
+    "progress": 0.061961862192814146,
     "week": 6,
     "year": 2021,
     "region": "Värmland",
     "amount": 14112
   },
   {
+    "progress": 0.061062034821628156,
     "week": 6,
     "year": 2021,
     "region": "Örebro",
     "amount": 14751
   },
   {
+    "progress": 0.05326233516923007,
     "week": 6,
     "year": 2021,
     "region": "Västmanland",
     "amount": 11653
   },
   {
+    "progress": 0.04891318574881545,
     "week": 6,
     "year": 2021,
     "region": "Dalarna",
     "amount": 11211
   },
   {
+    "progress": 0.06490315622852869,
     "week": 6,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 14925
   },
   {
+    "progress": 0.05106539685137637,
     "week": 6,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 9984
   },
   {
+    "progress": 0.04755711539748874,
     "week": 6,
     "year": 2021,
     "region": "Jämtland",
     "amount": 4973
   },
   {
+    "progress": 0.04987641889417796,
     "week": 6,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 10897
   },
   {
+    "progress": 0.058105795333831686,
     "week": 6,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 11815
   },
   {
+    "progress": 0.05529413574684501,
     "week": 7,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 452853
   },
   {
+    "progress": 0.03500922111906452,
     "week": 7,
     "year": 2021,
     "region": "Stockholm",
     "amount": 65435
   },
   {
+    "progress": 0.057256929821984125,
     "week": 7,
     "year": 2021,
     "region": "Uppsala",
     "amount": 17539
   },
   {
+    "progress": 0.06920017600143535,
     "week": 7,
     "year": 2021,
     "region": "Södermanland",
     "amount": 16199
   },
   {
+    "progress": 0.06356816972401479,
     "week": 7,
     "year": 2021,
     "region": "Östergötland",
     "amount": 23533
   },
   {
+    "progress": 0.06549272069342758,
     "week": 7,
     "year": 2021,
     "region": "Jönköping",
     "amount": 18678
   },
   {
+    "progress": 0.05868926053555057,
     "week": 7,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 9282
   },
   {
+    "progress": 0.08523418491484185,
     "week": 7,
     "year": 2021,
     "region": "Kalmar",
     "amount": 16815
   },
   {
+    "progress": 0.10841727498878512,
     "week": 7,
     "year": 2021,
     "region": "Gotland",
     "amount": 5317
   },
   {
+    "progress": 0.0843819684660904,
     "week": 7,
     "year": 2021,
     "region": "Blekinge",
     "amount": 10709
   },
   {
+    "progress": 0.05115544868853362,
     "week": 7,
     "year": 2021,
     "region": "Skåne",
     "amount": 55740
   },
   {
+    "progress": 0.07312032641174597,
     "week": 7,
     "year": 2021,
     "region": "Halland",
     "amount": 19283
   },
   {
+    "progress": 0.05057635573967173,
     "week": 7,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 69346
   },
   {
+    "progress": 0.07449737215316593,
     "week": 7,
     "year": 2021,
     "region": "Värmland",
     "amount": 16967
   },
   {
+    "progress": 0.07118729664616225,
     "week": 7,
     "year": 2021,
     "region": "Örebro",
     "amount": 17197
   },
   {
+    "progress": 0.06582261123934456,
     "week": 7,
     "year": 2021,
     "region": "Västmanland",
     "amount": 14401
   },
   {
+    "progress": 0.06152651373024668,
     "week": 7,
     "year": 2021,
     "region": "Dalarna",
     "amount": 14102
   },
   {
+    "progress": 0.07989719861887823,
     "week": 7,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 18373
   },
   {
+    "progress": 0.05786286404042677,
     "week": 7,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 11313
   },
   {
+    "progress": 0.06677887327984393,
     "week": 7,
     "year": 2021,
     "region": "Jämtland",
     "amount": 6983
   },
   {
+    "progress": 0.05493409007689491,
     "week": 7,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 12002
   },
   {
+    "progress": 0.0670761694928591,
     "week": 7,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 13639
   },
   {
+    "progress": 0.06749075567785265,
     "week": 8,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 552742
   },
   {
+    "progress": 0.04509440210927414,
     "week": 8,
     "year": 2021,
     "region": "Stockholm",
     "amount": 84285
   },
   {
+    "progress": 0.0665151915800745,
     "week": 8,
     "year": 2021,
     "region": "Uppsala",
     "amount": 20375
   },
   {
+    "progress": 0.09000850104020265,
     "week": 8,
     "year": 2021,
     "region": "Södermanland",
     "amount": 21070
   },
   {
+    "progress": 0.07907866267244011,
     "week": 8,
     "year": 2021,
     "region": "Östergötland",
     "amount": 29275
   },
   {
+    "progress": 0.08681870459199416,
     "week": 8,
     "year": 2021,
     "region": "Jönköping",
     "amount": 24760
   },
   {
+    "progress": 0.06840757484745977,
     "week": 8,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 10819
   },
   {
+    "progress": 0.09734387672343876,
     "week": 8,
     "year": 2021,
     "region": "Kalmar",
     "amount": 19204
   },
   {
+    "progress": 0.11802128787569838,
     "week": 8,
     "year": 2021,
     "region": "Gotland",
     "amount": 5788
   },
   {
+    "progress": 0.09631158843599058,
     "week": 8,
     "year": 2021,
     "region": "Blekinge",
     "amount": 12223
   },
   {
+    "progress": 0.06001725372148088,
     "week": 8,
     "year": 2021,
     "region": "Skåne",
     "amount": 65396
   },
   {
+    "progress": 0.08329794172518921,
     "week": 8,
     "year": 2021,
     "region": "Halland",
     "amount": 21967
   },
   {
+    "progress": 0.06013135294997137,
     "week": 8,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 82447
   },
   {
+    "progress": 0.08788029136828054,
     "week": 8,
     "year": 2021,
     "region": "Värmland",
     "amount": 20015
   },
   {
+    "progress": 0.09111079834750428,
     "week": 8,
     "year": 2021,
     "region": "Örebro",
     "amount": 22010
   },
   {
+    "progress": 0.08109331078456018,
     "week": 8,
     "year": 2021,
     "region": "Västmanland",
     "amount": 17742
   },
   {
+    "progress": 0.07811450161865953,
     "week": 8,
     "year": 2021,
     "region": "Dalarna",
     "amount": 17904
   },
   {
+    "progress": 0.09730472521069065,
     "week": 8,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 22376
   },
   {
+    "progress": 0.07559560952156878,
     "week": 8,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 14780
   },
   {
+    "progress": 0.08729164475131253,
     "week": 8,
     "year": 2021,
     "region": "Jämtland",
     "amount": 9128
   },
   {
+    "progress": 0.0682900036616624,
     "week": 8,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 14920
   },
   {
+    "progress": 0.07995632844159421,
     "week": 8,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 16258
   },
   {
+    "progress": 0.08546449696772558,
     "week": 9,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 699945
   },
   {
+    "progress": 0.058047840674471225,
     "week": 9,
     "year": 2021,
     "region": "Stockholm",
     "amount": 108496
   },
   {
+    "progress": 0.08371283718713377,
     "week": 9,
     "year": 2021,
     "region": "Uppsala",
     "amount": 25643
   },
   {
+    "progress": 0.11795086484200454,
     "week": 9,
     "year": 2021,
     "region": "Södermanland",
     "amount": 27611
   },
   {
+    "progress": 0.10275498985686154,
     "week": 9,
     "year": 2021,
     "region": "Östergötland",
     "amount": 38040
   },
   {
+    "progress": 0.10737327835282898,
     "week": 9,
     "year": 2021,
     "region": "Jönköping",
     "amount": 30622
   },
   {
+    "progress": 0.09105624229395214,
     "week": 9,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 14401
   },
   {
+    "progress": 0.12423965936739659,
     "week": 9,
     "year": 2021,
     "region": "Kalmar",
     "amount": 24510
   },
   {
+    "progress": 0.1331715672280902,
     "week": 9,
     "year": 2021,
     "region": "Gotland",
     "amount": 6531
   },
   {
+    "progress": 0.11456847712176249,
     "week": 9,
     "year": 2021,
     "region": "Blekinge",
     "amount": 14540
   },
   {
+    "progress": 0.07460399038196802,
     "week": 9,
     "year": 2021,
     "region": "Skåne",
     "amount": 81290
   },
   {
+    "progress": 0.09834063917244308,
     "week": 9,
     "year": 2021,
     "region": "Halland",
     "amount": 25934
   },
   {
+    "progress": 0.07888105665826718,
     "week": 9,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 108155
   },
   {
+    "progress": 0.11481736793807326,
     "week": 9,
     "year": 2021,
     "region": "Värmland",
     "amount": 26150
   },
   {
+    "progress": 0.11077351039433052,
     "week": 9,
     "year": 2021,
     "region": "Örebro",
     "amount": 26760
   },
   {
+    "progress": 0.10668921543981534,
     "week": 9,
     "year": 2021,
     "region": "Västmanland",
     "amount": 23342
   },
   {
+    "progress": 0.09201490388391026,
     "week": 9,
     "year": 2021,
     "region": "Dalarna",
     "amount": 21090
   },
   {
+    "progress": 0.11408605049617757,
     "week": 9,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 26235
   },
   {
+    "progress": 0.10129197909101138,
     "week": 9,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 19804
   },
   {
+    "progress": 0.11500540313094704,
     "week": 9,
     "year": 2021,
     "region": "Jämtland",
     "amount": 12026
   },
   {
+    "progress": 0.0894315269132186,
     "week": 9,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 19539
   },
   {
+    "progress": 0.09455285832316954,
     "week": 9,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 19226
   },
   {
+    "progress": 0.10728248919521771,
     "week": 10,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 878632
   },
   {
+    "progress": 0.07464799508206983,
     "week": 10,
     "year": 2021,
     "region": "Stockholm",
     "amount": 139523
   },
   {
+    "progress": 0.0954488918487469,
     "week": 10,
     "year": 2021,
     "region": "Uppsala",
     "amount": 29238
   },
   {
+    "progress": 0.1456326439943782,
     "week": 10,
     "year": 2021,
     "region": "Södermanland",
     "amount": 34091
   },
   {
+    "progress": 0.12405693123465361,
     "week": 10,
     "year": 2021,
     "region": "Östergötland",
     "amount": 45926
   },
   {
+    "progress": 0.13088375550506326,
     "week": 10,
     "year": 2021,
     "region": "Jönköping",
     "amount": 37327
   },
   {
+    "progress": 0.10668015554361228,
     "week": 10,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 16872
   },
   {
+    "progress": 0.15185016220600162,
     "week": 10,
     "year": 2021,
     "region": "Kalmar",
     "amount": 29957
   },
   {
+    "progress": 0.17446270543615677,
     "week": 10,
     "year": 2021,
     "region": "Gotland",
     "amount": 8556
   },
   {
+    "progress": 0.13939690018989687,
     "week": 10,
     "year": 2021,
     "region": "Blekinge",
     "amount": 17691
   },
   {
+    "progress": 0.09727611460876269,
     "week": 10,
     "year": 2021,
     "region": "Skåne",
     "amount": 105994
   },
   {
+    "progress": 0.12165359705137345,
     "week": 10,
     "year": 2021,
     "region": "Halland",
     "amount": 32082
   },
   {
+    "progress": 0.10128982616337798,
     "week": 10,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 138880
   },
   {
+    "progress": 0.13937028271855914,
     "week": 10,
     "year": 2021,
     "region": "Värmland",
     "amount": 31742
   },
   {
+    "progress": 0.1332635134575741,
     "week": 10,
     "year": 2021,
     "region": "Örebro",
     "amount": 32193
   },
   {
+    "progress": 0.1301231802911534,
     "week": 10,
     "year": 2021,
     "region": "Västmanland",
     "amount": 28469
   },
   {
+    "progress": 0.11856790080365791,
     "week": 10,
     "year": 2021,
     "region": "Dalarna",
     "amount": 27176
   },
   {
+    "progress": 0.135842197270806,
     "week": 10,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 31238
   },
   {
+    "progress": 0.13315670489069836,
     "week": 10,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 26034
   },
   {
+    "progress": 0.14115081907639931,
     "week": 10,
     "year": 2021,
     "region": "Jämtland",
     "amount": 14760
   },
   {
+    "progress": 0.11953039179787624,
     "week": 10,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 26115
   },
   {
+    "progress": 0.12180823858047764,
     "week": 10,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 24768
   },
   {
+    "progress": 0.12185362151295769,
     "week": 11,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 997968
   },
   {
+    "progress": 0.08758859309852607,
     "week": 11,
     "year": 2021,
     "region": "Stockholm",
     "amount": 163710
   },
   {
+    "progress": 0.10814798854796112,
     "week": 11,
     "year": 2021,
     "region": "Uppsala",
     "amount": 33128
   },
   {
+    "progress": 0.16898700921444407,
     "week": 11,
     "year": 2021,
     "region": "Södermanland",
     "amount": 39558
   },
   {
+    "progress": 0.14290344974756955,
     "week": 11,
     "year": 2021,
     "region": "Östergötland",
     "amount": 52903
   },
   {
+    "progress": 0.14205517686330613,
     "week": 11,
     "year": 2021,
     "region": "Jönköping",
     "amount": 40513
   },
   {
+    "progress": 0.1216211943979008,
     "week": 11,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 19235
   },
   {
+    "progress": 0.16699107866991078,
     "week": 11,
     "year": 2021,
     "region": "Kalmar",
     "amount": 32944
   },
   {
+    "progress": 0.20319318135475714,
     "week": 11,
     "year": 2021,
     "region": "Gotland",
     "amount": 9965
   },
   {
+    "progress": 0.14862383875314197,
     "week": 11,
     "year": 2021,
     "region": "Blekinge",
     "amount": 18862
   },
   {
+    "progress": 0.11352398083735614,
     "week": 11,
     "year": 2021,
     "region": "Skåne",
     "amount": 123698
   },
   {
+    "progress": 0.13612370883829575,
     "week": 11,
     "year": 2021,
     "region": "Halland",
     "amount": 35898
   },
   {
+    "progress": 0.11365859173008828,
     "week": 11,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 155839
   },
   {
+    "progress": 0.1576400749935237,
     "week": 11,
     "year": 2021,
     "region": "Värmland",
     "amount": 35903
   },
   {
+    "progress": 0.14403040062258354,
     "week": 11,
     "year": 2021,
     "region": "Örebro",
     "amount": 34794
   },
   {
+    "progress": 0.14931553808533493,
     "week": 11,
     "year": 2021,
     "region": "Västmanland",
     "amount": 32668
   },
   {
+    "progress": 0.13430947373932164,
     "week": 11,
     "year": 2021,
     "region": "Dalarna",
     "amount": 30784
   },
   {
+    "progress": 0.15646770279790223,
     "week": 11,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 35981
   },
   {
+    "progress": 0.14964145790071298,
     "week": 11,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 29257
   },
   {
+    "progress": 0.15858428406124186,
     "week": 11,
     "year": 2021,
     "region": "Jämtland",
     "amount": 16583
   },
   {
+    "progress": 0.13653881362138412,
     "week": 11,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 29831
   },
   {
+    "progress": 0.1274442302396034,
     "week": 11,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 25914
   },
   {
+    "progress": 0.1376286769105136,
     "week": 12,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 1127164
   },
   {
+    "progress": 0.1018517676352899,
     "week": 12,
     "year": 2021,
     "region": "Stockholm",
     "amount": 190369
   },
   {
+    "progress": 0.12226389963469693,
     "week": 12,
     "year": 2021,
     "region": "Uppsala",
     "amount": 37452
   },
   {
+    "progress": 0.18485704155257188,
     "week": 12,
     "year": 2021,
     "region": "Södermanland",
     "amount": 43273
   },
   {
+    "progress": 0.16157438796761758,
     "week": 12,
     "year": 2021,
     "region": "Östergötland",
     "amount": 59815
   },
   {
+    "progress": 0.15053367555892172,
     "week": 12,
     "year": 2021,
     "region": "Jönköping",
     "amount": 42931
   },
   {
+    "progress": 0.14048243811450792,
     "week": 12,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 22218
   },
   {
+    "progress": 0.19352189781021897,
     "week": 12,
     "year": 2021,
     "region": "Kalmar",
     "amount": 38178
   },
   {
+    "progress": 0.21114554871334773,
     "week": 12,
     "year": 2021,
     "region": "Gotland",
     "amount": 10355
   },
   {
+    "progress": 0.159410925766876,
     "week": 12,
     "year": 2021,
     "region": "Blekinge",
     "amount": 20231
   },
   {
+    "progress": 0.1297746003193774,
     "week": 12,
     "year": 2021,
     "region": "Skåne",
     "amount": 141405
   },
   {
+    "progress": 0.16288355655326184,
     "week": 12,
     "year": 2021,
     "region": "Halland",
     "amount": 42955
   },
   {
+    "progress": 0.1280986642258308,
     "week": 12,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 175638
   },
   {
+    "progress": 0.1797561393263755,
     "week": 12,
     "year": 2021,
     "region": "Värmland",
     "amount": 40940
   },
   {
+    "progress": 0.16101484431271576,
     "week": 12,
     "year": 2021,
     "region": "Örebro",
     "amount": 38897
   },
   {
+    "progress": 0.16415202139086318,
     "week": 12,
     "year": 2021,
     "region": "Västmanland",
     "amount": 35914
   },
   {
+    "progress": 0.149850350345983,
     "week": 12,
     "year": 2021,
     "region": "Dalarna",
     "amount": 34346
   },
   {
+    "progress": 0.18011115073187278,
     "week": 12,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 41418
   },
   {
+    "progress": 0.15405034933559744,
     "week": 12,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 30119
   },
   {
+    "progress": 0.17187694249729843,
     "week": 12,
     "year": 2021,
     "region": "Jämtland",
     "amount": 17973
   },
   {
+    "progress": 0.14993592090809227,
     "week": 12,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 32758
   },
   {
+    "progress": 0.14743577133414643,
     "week": 12,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 29979
   },
   {
+    "progress": 0.1615697740580706,
     "week": 13,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 1323239
   },
   {
+    "progress": 0.12755266096296625,
     "week": 13,
     "year": 2021,
     "region": "Stockholm",
     "amount": 238406
   },
   {
+    "progress": 0.13407177438047016,
     "week": 13,
     "year": 2021,
     "region": "Uppsala",
     "amount": 41069
   },
   {
+    "progress": 0.20601138883074385,
     "week": 13,
     "year": 2021,
     "region": "Södermanland",
     "amount": 48225
   },
   {
+    "progress": 0.1852291052698399,
     "week": 13,
     "year": 2021,
     "region": "Östergötland",
     "amount": 68572
   },
   {
+    "progress": 0.1835991191898791,
     "week": 13,
     "year": 2021,
     "region": "Jönköping",
     "amount": 52361
   },
   {
+    "progress": 0.16319433467168284,
     "week": 13,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 25810
   },
   {
+    "progress": 0.21781731549067315,
     "week": 13,
     "year": 2021,
     "region": "Kalmar",
     "amount": 42971
   },
   {
+    "progress": 0.2203621385750989,
     "week": 13,
     "year": 2021,
     "region": "Gotland",
     "amount": 10807
   },
   {
+    "progress": 0.18249009148143186,
     "week": 13,
     "year": 2021,
     "region": "Blekinge",
     "amount": 23160
   },
   {
+    "progress": 0.1494502670655825,
     "week": 13,
     "year": 2021,
     "region": "Skåne",
     "amount": 162844
   },
   {
+    "progress": 0.18012938160748684,
     "week": 13,
     "year": 2021,
     "region": "Halland",
     "amount": 47503
   },
   {
+    "progress": 0.14636919587343147,
     "week": 13,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 200689
   },
   {
+    "progress": 0.22606068855294992,
     "week": 13,
     "year": 2021,
     "region": "Värmland",
     "amount": 51486
   },
   {
+    "progress": 0.1924627650326608,
     "week": 13,
     "year": 2021,
     "region": "Örebro",
     "amount": 46494
   },
   {
+    "progress": 0.19148022030760792,
     "week": 13,
     "year": 2021,
     "region": "Västmanland",
     "amount": 41893
   },
   {
+    "progress": 0.18923046046718614,
     "week": 13,
     "year": 2021,
     "region": "Dalarna",
     "amount": 43372
   },
   {
+    "progress": 0.20979048347959192,
     "week": 13,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 48243
   },
   {
+    "progress": 0.1700952361467721,
     "week": 13,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 33256
   },
   {
+    "progress": 0.2020292821008138,
     "week": 13,
     "year": 2021,
     "region": "Jämtland",
     "amount": 21126
   },
   {
+    "progress": 0.17579641157085316,
     "week": 13,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 38408
   },
   {
+    "progress": 0.17972223315104063,
     "week": 13,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 36544
   },
   {
+    "progress": 0.19177114911893833,
     "week": 14,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 1570585
   },
   {
+    "progress": 0.1495046490811785,
     "week": 14,
     "year": 2021,
     "region": "Stockholm",
     "amount": 279436
   },
   {
+    "progress": 0.16859438301650884,
     "week": 14,
     "year": 2021,
     "region": "Uppsala",
     "amount": 51644
   },
   {
+    "progress": 0.24897795282990656,
     "week": 14,
     "year": 2021,
     "region": "Södermanland",
     "amount": 58283
   },
   {
+    "progress": 0.22705503226625537,
     "week": 14,
     "year": 2021,
     "region": "Östergötland",
     "amount": 84056
   },
   {
+    "progress": 0.23620227776375213,
     "week": 14,
     "year": 2021,
     "region": "Jönköping",
     "amount": 67363
   },
   {
+    "progress": 0.20419209003825362,
     "week": 14,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 32294
   },
   {
+    "progress": 0.2512317518248175,
     "week": 14,
     "year": 2021,
     "region": "Kalmar",
     "amount": 49563
   },
   {
+    "progress": 0.2675461849027364,
     "week": 14,
     "year": 2021,
     "region": "Gotland",
     "amount": 13121
   },
   {
+    "progress": 0.22022519718542916,
     "week": 14,
     "year": 2021,
     "region": "Blekinge",
     "amount": 27949
   },
   {
+    "progress": 0.17415704557552175,
     "week": 14,
     "year": 2021,
     "region": "Skåne",
     "amount": 189765
   },
   {
+    "progress": 0.218329566655038,
     "week": 14,
     "year": 2021,
     "region": "Halland",
     "amount": 57577
   },
   {
+    "progress": 0.16818501730343552,
     "week": 14,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 230601
   },
   {
+    "progress": 0.2773179716622833,
     "week": 14,
     "year": 2021,
     "region": "Värmland",
     "amount": 63160
   },
   {
+    "progress": 0.22588523599393975,
     "week": 14,
     "year": 2021,
     "region": "Örebro",
     "amount": 54568
   },
   {
+    "progress": 0.20697488401855704,
     "week": 14,
     "year": 2021,
     "region": "Västmanland",
     "amount": 45283
   },
   {
+    "progress": 0.24468372876327432,
     "week": 14,
     "year": 2021,
     "region": "Dalarna",
     "amount": 56082
   },
   {
+    "progress": 0.2439662894963428,
     "week": 14,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 56102
   },
   {
+    "progress": 0.21083400677189357,
     "week": 14,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 41221
   },
   {
+    "progress": 0.23353001367518098,
     "week": 14,
     "year": 2021,
     "region": "Jämtland",
     "amount": 24420
   },
   {
+    "progress": 0.20046686195532773,
     "week": 14,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 43798
   },
   {
+    "progress": 0.217861077231774,
     "week": 14,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 44299
   },
   {
+    "progress": 0.2419030678304427,
     "week": 15,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 1981160
   },
   {
+    "progress": 0.1905446479255291,
     "week": 15,
     "year": 2021,
     "region": "Stockholm",
     "amount": 356143
   },
   {
+    "progress": 0.20649580015735128,
     "week": 15,
     "year": 2021,
     "region": "Uppsala",
     "amount": 63254
   },
   {
+    "progress": 0.2958532865704924,
     "week": 15,
     "year": 2021,
     "region": "Södermanland",
     "amount": 69256
   },
   {
+    "progress": 0.2863417440795676,
     "week": 15,
     "year": 2021,
     "region": "Östergötland",
     "amount": 106004
   },
   {
+    "progress": 0.29057266683497435,
     "week": 15,
     "year": 2021,
     "region": "Jönköping",
     "amount": 82869
   },
   {
+    "progress": 0.275432329044292,
     "week": 15,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 43561
   },
   {
+    "progress": 0.3188817923763179,
     "week": 15,
     "year": 2021,
     "region": "Kalmar",
     "amount": 62909
   },
   {
+    "progress": 0.31197748868316955,
     "week": 15,
     "year": 2021,
     "region": "Gotland",
     "amount": 15300
   },
   {
+    "progress": 0.27657965030612003,
     "week": 15,
     "year": 2021,
     "region": "Blekinge",
     "amount": 35101
   },
   {
+    "progress": 0.21777225087645233,
     "week": 15,
     "year": 2021,
     "region": "Skåne",
     "amount": 237289
   },
   {
+    "progress": 0.2737528250087215,
     "week": 15,
     "year": 2021,
     "region": "Halland",
     "amount": 72193
   },
   {
+    "progress": 0.21249566958278482,
     "week": 15,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 291356
   },
   {
+    "progress": 0.3423401667596036,
     "week": 15,
     "year": 2021,
     "region": "Värmland",
     "amount": 77969
   },
   {
+    "progress": 0.2681207414705225,
     "week": 15,
     "year": 2021,
     "region": "Örebro",
     "amount": 64771
   },
   {
+    "progress": 0.275841579632973,
     "week": 15,
     "year": 2021,
     "region": "Västmanland",
     "amount": 60350
   },
   {
+    "progress": 0.3150234291149292,
     "week": 15,
     "year": 2021,
     "region": "Dalarna",
     "amount": 72204
   },
   {
+    "progress": 0.2985284269301351,
     "week": 15,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 68649
   },
   {
+    "progress": 0.2907720163261966,
     "week": 15,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 56850
   },
   {
+    "progress": 0.30524342778452507,
     "week": 15,
     "year": 2021,
     "region": "Jämtland",
     "amount": 31919
   },
   {
+    "progress": 0.25465488831929695,
     "week": 15,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 55637
   },
   {
+    "progress": 0.28315694220403664,
     "week": 15,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 57576
   },
   {
+    "progress": 0.2907269106845365,
     "week": 16,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 2381022
   },
   {
+    "progress": 0.2319955443295869,
     "week": 16,
     "year": 2021,
     "region": "Stockholm",
     "amount": 433618
   },
   {
+    "progress": 0.24266700617979178,
     "week": 16,
     "year": 2021,
     "region": "Uppsala",
     "amount": 74334
   },
   {
+    "progress": 0.34006723938331146,
     "week": 16,
     "year": 2021,
     "region": "Södermanland",
     "amount": 79606
   },
   {
+    "progress": 0.3351908827907002,
     "week": 16,
     "year": 2021,
     "region": "Östergötland",
     "amount": 124088
   },
   {
+    "progress": 0.32902395579118626,
     "week": 16,
     "year": 2021,
     "region": "Jönköping",
     "amount": 93835
   },
   {
+    "progress": 0.32384685909392685,
     "week": 16,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 51218
   },
   {
+    "progress": 0.38891423357664234,
     "week": 16,
     "year": 2021,
     "region": "Kalmar",
     "amount": 76725
   },
   {
+    "progress": 0.337486236287264,
     "week": 16,
     "year": 2021,
     "region": "Gotland",
     "amount": 16551
   },
   {
+    "progress": 0.3308381464175682,
     "week": 16,
     "year": 2021,
     "region": "Blekinge",
     "amount": 41987
   },
   {
+    "progress": 0.27212422679466236,
     "week": 16,
     "year": 2021,
     "region": "Skåne",
     "amount": 296512
   },
   {
+    "progress": 0.32293072851097393,
     "week": 16,
     "year": 2021,
     "region": "Halland",
     "amount": 85162
   },
   {
+    "progress": 0.2614696797861594,
     "week": 16,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 358505
   },
   {
+    "progress": 0.39439217046537256,
     "week": 16,
     "year": 2021,
     "region": "Värmland",
     "amount": 89824
   },
   {
+    "progress": 0.3207754145727603,
     "week": 16,
     "year": 2021,
     "region": "Örebro",
     "amount": 77491
   },
   {
+    "progress": 0.3342642320085929,
     "week": 16,
     "year": 2021,
     "region": "Västmanland",
     "amount": 73132
   },
   {
+    "progress": 0.3703763492465162,
     "week": 16,
     "year": 2021,
     "region": "Dalarna",
     "amount": 84891
   },
   {
+    "progress": 0.34808965115368895,
     "week": 16,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 80046
   },
   {
+    "progress": 0.3528136092556032,
     "week": 16,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 68980
   },
   {
+    "progress": 0.34591513737340895,
     "week": 16,
     "year": 2021,
     "region": "Jämtland",
     "amount": 36172
   },
   {
+    "progress": 0.3080648114243867,
     "week": 16,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 67306
   },
   {
+    "progress": 0.34936754927804226,
     "week": 16,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 71039
   },
   {
+    "progress": 0.33569661236070025,
     "week": 17,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 2749319
   },
   {
+    "progress": 0.2748781619182496,
     "week": 17,
     "year": 2021,
     "region": "Stockholm",
     "amount": 513769
   },
   {
+    "progress": 0.3015953852331378,
     "week": 17,
     "year": 2021,
     "region": "Uppsala",
     "amount": 92385
   },
   {
+    "progress": 0.3970541118976116,
     "week": 17,
     "year": 2021,
     "region": "Södermanland",
     "amount": 92946
   },
   {
+    "progress": 0.38331338921288705,
     "week": 17,
     "year": 2021,
     "region": "Östergötland",
     "amount": 141903
   },
   {
+    "progress": 0.3758134870543353,
     "week": 17,
     "year": 2021,
     "region": "Jönköping",
     "amount": 107179
   },
   {
+    "progress": 0.36154405488286806,
     "week": 17,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 57180
   },
   {
+    "progress": 0.44072384428223843,
     "week": 17,
     "year": 2021,
     "region": "Kalmar",
     "amount": 86946
   },
   {
+    "progress": 0.358631377186901,
     "week": 17,
     "year": 2021,
     "region": "Gotland",
     "amount": 17588
   },
   {
+    "progress": 0.36942424218546854,
     "week": 17,
     "year": 2021,
     "region": "Blekinge",
     "amount": 46884
   },
   {
+    "progress": 0.31408656228777004,
     "week": 17,
     "year": 2021,
     "region": "Skåne",
     "amount": 342235
   },
   {
+    "progress": 0.3568877125392468,
     "week": 17,
     "year": 2021,
     "region": "Halland",
     "amount": 94117
   },
   {
+    "progress": 0.3058576414086346,
     "week": 17,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 419366
   },
   {
+    "progress": 0.44331798044372633,
     "week": 17,
     "year": 2021,
     "region": "Värmland",
     "amount": 100967
   },
   {
+    "progress": 0.35553494995322343,
     "week": 17,
     "year": 2021,
     "region": "Örebro",
     "amount": 85888
   },
   {
+    "progress": 0.3839385698288274,
     "week": 17,
     "year": 2021,
     "region": "Västmanland",
     "amount": 84000
   },
   {
+    "progress": 0.41358277850978614,
     "week": 17,
     "year": 2021,
     "region": "Dalarna",
     "amount": 94794
   },
   {
+    "progress": 0.4052392175962567,
     "week": 17,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 93188
   },
   {
+    "progress": 0.40127561197663597,
     "week": 17,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 78455
   },
   {
+    "progress": 0.3874283965611223,
     "week": 17,
     "year": 2021,
     "region": "Jämtland",
     "amount": 40513
   },
   {
+    "progress": 0.3577123764188942,
     "week": 17,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 78153
   },
   {
+    "progress": 0.3976816697485935,
     "week": 17,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 80863
   },
   {
+    "progress": 0.3767467263304571,
     "week": 18,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 3085515
   },
   {
+    "progress": 0.31786885412548105,
     "week": 18,
     "year": 2021,
     "region": "Stockholm",
     "amount": 594122
   },
   {
+    "progress": 0.34870283134359054,
     "week": 18,
     "year": 2021,
     "region": "Uppsala",
     "amount": 106815
   },
   {
+    "progress": 0.4259277454301569,
     "week": 18,
     "year": 2021,
     "region": "Södermanland",
     "amount": 99705
   },
   {
+    "progress": 0.4237913998071318,
     "week": 18,
     "year": 2021,
     "region": "Östergötland",
     "amount": 156888
   },
   {
+    "progress": 0.40972046901736375,
     "week": 18,
     "year": 2021,
     "region": "Jönköping",
     "amount": 116849
   },
   {
+    "progress": 0.39542853529765104,
     "week": 18,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 62539
   },
   {
+    "progress": 0.48298864557988647,
     "week": 18,
     "year": 2021,
     "region": "Kalmar",
     "amount": 95284
   },
   {
+    "progress": 0.39217405489172547,
     "week": 18,
     "year": 2021,
     "region": "Gotland",
     "amount": 19233
   },
   {
+    "progress": 0.40681264823380164,
     "week": 18,
     "year": 2021,
     "region": "Blekinge",
     "amount": 51629
   },
   {
+    "progress": 0.35139039298103925,
     "week": 18,
     "year": 2021,
     "region": "Skåne",
     "amount": 382882
   },
   {
+    "progress": 0.3868176371551214,
     "week": 18,
     "year": 2021,
     "region": "Halland",
     "amount": 102010
   },
   {
+    "progress": 0.3466791625793606,
     "week": 18,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 475337
   },
   {
+    "progress": 0.4784174083327113,
     "week": 18,
     "year": 2021,
     "region": "Värmland",
     "amount": 108961
   },
   {
+    "progress": 0.4051512166044359,
     "week": 18,
     "year": 2021,
     "region": "Örebro",
     "amount": 97874
   },
   {
+    "progress": 0.43601252371049204,
     "week": 18,
     "year": 2021,
     "region": "Västmanland",
     "amount": 95393
   },
   {
+    "progress": 0.4585998376977513,
     "week": 18,
     "year": 2021,
     "region": "Dalarna",
     "amount": 105112
   },
   {
+    "progress": 0.45821410866332113,
     "week": 18,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 105370
   },
   {
+    "progress": 0.45414650613255314,
     "week": 18,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 88792
   },
   {
+    "progress": 0.4413162600770783,
     "week": 18,
     "year": 2021,
     "region": "Jämtland",
     "amount": 46148
   },
   {
+    "progress": 0.39550530941047235,
     "week": 18,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 86410
   },
   {
+    "progress": 0.43357792028957,
     "week": 18,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 88162
   },
   {
+    "progress": 0.4093994157676316,
     "week": 19,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 3352937
   },
   {
+    "progress": 0.3588853119638068,
     "week": 19,
     "year": 2021,
     "region": "Stockholm",
     "amount": 670785
   },
   {
+    "progress": 0.39192219926155897,
     "week": 19,
     "year": 2021,
     "region": "Uppsala",
     "amount": 120054
   },
   {
+    "progress": 0.46155522045034153,
     "week": 19,
     "year": 2021,
     "region": "Södermanland",
     "amount": 108045
   },
   {
+    "progress": 0.450503915440531,
     "week": 19,
     "year": 2021,
     "region": "Östergötland",
     "amount": 166777
   },
   {
+    "progress": 0.43115865802687314,
     "week": 19,
     "year": 2021,
     "region": "Jönköping",
     "amount": 122963
   },
   {
+    "progress": 0.42775125667857483,
     "week": 19,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 67651
   },
   {
+    "progress": 0.505874898621249,
     "week": 19,
     "year": 2021,
     "region": "Kalmar",
     "amount": 99799
   },
   {
+    "progress": 0.4200277313323274,
     "week": 19,
     "year": 2021,
     "region": "Gotland",
     "amount": 20599
   },
   {
+    "progress": 0.44555633475427664,
     "week": 19,
     "year": 2021,
     "region": "Blekinge",
     "amount": 56546
   },
   {
+    "progress": 0.3724665479708522,
     "week": 19,
     "year": 2021,
     "region": "Skåne",
     "amount": 405847
   },
   {
+    "progress": 0.4204788484581899,
     "week": 19,
     "year": 2021,
     "region": "Halland",
     "amount": 110887
   },
   {
+    "progress": 0.38020224415895093,
     "week": 19,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 521301
   },
   {
+    "progress": 0.5032688921770515,
     "week": 19,
     "year": 2021,
     "region": "Värmland",
     "amount": 114621
   },
   {
+    "progress": 0.4365453235861475,
     "week": 19,
     "year": 2021,
     "region": "Örebro",
     "amount": 105458
   },
   {
+    "progress": 0.47494572297003906,
     "week": 19,
     "year": 2021,
     "region": "Västmanland",
     "amount": 103911
   },
   {
+    "progress": 0.4841319011177913,
     "week": 19,
     "year": 2021,
     "region": "Dalarna",
     "amount": 110964
   },
   {
+    "progress": 0.5057358300211343,
     "week": 19,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 116298
   },
   {
+    "progress": 0.48331577278353466,
     "week": 19,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 94495
   },
   {
+    "progress": 0.4692499689200432,
     "week": 19,
     "year": 2021,
     "region": "Jämtland",
     "amount": 49069
   },
   {
+    "progress": 0.4318061149761992,
     "week": 19,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 94341
   },
   {
+    "progress": 0.4550399339025062,
     "week": 19,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 92526
   },
   {
+    "progress": 0.4382712250662158,
     "week": 20,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 3589394
   },
   {
+    "progress": 0.39805701096636364,
     "week": 20,
     "year": 2021,
     "region": "Stockholm",
     "amount": 744000
   },
   {
+    "progress": 0.42250776146591323,
     "week": 20,
     "year": 2021,
     "region": "Uppsala",
     "amount": 129423
   },
   {
+    "progress": 0.48388006271119105,
     "week": 20,
     "year": 2021,
     "region": "Södermanland",
     "amount": 113271
   },
   {
+    "progress": 0.4738047709217425,
     "week": 20,
     "year": 2021,
     "region": "Östergötland",
     "amount": 175403
   },
   {
+    "progress": 0.44387991248001346,
     "week": 20,
     "year": 2021,
     "region": "Jönköping",
     "amount": 126591
   },
   {
+    "progress": 0.45524327400335113,
     "week": 20,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 71999
   },
   {
+    "progress": 0.5240115571776156,
     "week": 20,
     "year": 2021,
     "region": "Kalmar",
     "amount": 103377
   },
   {
+    "progress": 0.4514701684270625,
     "week": 20,
     "year": 2021,
     "region": "Gotland",
     "amount": 22141
   },
   {
+    "progress": 0.48061239766450503,
     "week": 20,
     "year": 2021,
     "region": "Blekinge",
     "amount": 60995
   },
   {
+    "progress": 0.40442080725390506,
     "week": 20,
     "year": 2021,
     "region": "Skåne",
     "amount": 440665
   },
   {
+    "progress": 0.446662318554809,
     "week": 20,
     "year": 2021,
     "region": "Halland",
     "amount": 117792
   },
   {
+    "progress": 0.4082990850512174,
     "week": 20,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 559825
   },
   {
+    "progress": 0.5111063301032258,
     "week": 20,
     "year": 2021,
     "region": "Värmland",
     "amount": 116406
   },
   {
+    "progress": 0.46663962181360574,
     "week": 20,
     "year": 2021,
     "region": "Örebro",
     "amount": 112728
   },
   {
+    "progress": 0.49645542427497313,
     "week": 20,
     "year": 2021,
     "region": "Västmanland",
     "amount": 108617
   },
   {
+    "progress": 0.5025436078219213,
     "week": 20,
     "year": 2021,
     "region": "Dalarna",
     "amount": 115184
   },
   {
+    "progress": 0.5358543734073179,
     "week": 20,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 123224
   },
   {
+    "progress": 0.4938469879394826,
     "week": 20,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 96554
   },
   {
+    "progress": 0.49796784898009927,
     "week": 20,
     "year": 2021,
     "region": "Jämtland",
     "amount": 52072
   },
   {
+    "progress": 0.46263273526180887,
     "week": 20,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 101076
   },
   {
+    "progress": 0.4822117086989023,
     "week": 20,
     "year": 2021,
     "region": "Norrbotten",
     "amount": 98051
   },
   {
+    "progress": 0.45719198739128675,
     "week": 21,
     "year": 2021,
     "region": "| Sverige |",
     "amount": 3744353
   },
   {
+    "progress": 0.4260996993706526,
     "week": 21,
     "year": 2021,
     "region": "Stockholm",
     "amount": 796414
   },
   {
+    "progress": 0.45156551460722577,
     "week": 21,
     "year": 2021,
     "region": "Uppsala",
     "amount": 138324
   },
   {
+    "progress": 0.5096565836070897,
     "week": 21,
     "year": 2021,
     "region": "Södermanland",
     "amount": 119305
   },
   {
+    "progress": 0.4934049340763531,
     "week": 21,
     "year": 2021,
     "region": "Östergötland",
     "amount": 182659
   },
   {
+    "progress": 0.45746023731380964,
     "week": 21,
     "year": 2021,
     "region": "Jönköping",
     "amount": 130464
   },
   {
+    "progress": 0.4655749106888812,
     "week": 21,
     "year": 2021,
     "region": "Kronoberg",
     "amount": 73633
   },
   {
+    "progress": 0.5383008921330089,
     "week": 21,
     "year": 2021,
     "region": "Kalmar",
     "amount": 106196
   },
   {
+    "progress": 0.46790506096814977,
     "week": 21,
     "year": 2021,
     "region": "Gotland",
     "amount": 22947
   },
   {
+    "progress": 0.5200810016468234,
     "week": 21,
     "year": 2021,
     "region": "Blekinge",
     "amount": 66004
   },
   {
+    "progress": 0.4183889796442797,
     "week": 21,
     "year": 2021,
     "region": "Skåne",
     "amount": 455885
   },
   {
+    "progress": 0.4737899861972728,
     "week": 21,
     "year": 2021,
     "region": "Halland",
     "amount": 124946
   },
   {
+    "progress": 0.4213264387013489,
     "week": 21,
     "year": 2021,
     "region": "Västra Götaland",
     "amount": 577687
   },
   {
+    "progress": 0.5253190956869942,
     "week": 21,
     "year": 2021,
     "region": "Värmland",
     "amount": 119643
   },
   {
+    "progress": 0.4958480631193754,
     "week": 21,
     "year": 2021,
     "region": "Örebro",
     "amount": 119784
   },
   {
+    "progress": 0.5025938706949745,
     "week": 21,
     "year": 2021,
     "region": "Västmanland",
     "amount": 109960
   },
   {
+    "progress": 0.522080959153934,
     "week": 21,
     "year": 2021,
     "region": "Dalarna",
     "amount": 119662
   },
   {
+    "progress": 0.5469607493542299,
     "week": 21,
     "year": 2021,
     "region": "Gävleborg",
     "amount": 125778
   },
   {
+    "progress": 0.5039076485571365,
     "week": 21,
     "year": 2021,
     "region": "Västernorrland",
     "amount": 98521
   },
   {
+    "progress": 0.5061251422505714,
     "week": 21,
     "year": 2021,
     "region": "Jämtland",
     "amount": 52925
   },
   {
+    "progress": 0.48030483339436103,
     "week": 21,
     "year": 2021,
     "region": "Västerbotten",
     "amount": 104937
   },
   {
+    "progress": 0.48530019278435693,
     "week": 21,
     "year": 2021,
     "region": "Norrbotten",

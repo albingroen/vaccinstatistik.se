@@ -24,6 +24,7 @@ const main = () => {
       records.splice(0, 1);
 
       const cleanData = records.map((record) => ({
+        progress: Number(record.E),
         week: Number(record.A),
         year: Number(record.B),
         region: record.C,
