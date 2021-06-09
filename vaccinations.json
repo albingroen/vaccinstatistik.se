@@ -2,12 +2,6 @@
   {
     "week": 52,
     "year": 2020,
-    "region": "| Sverige |",
-    "amount": 2236
-  },
-  {
-    "week": 52,
-    "year": 2020,
     "region": "Stockholm",
     "amount": 285
   },
@@ -135,7 +129,7 @@
     "week": 53,
     "year": 2020,
     "region": "| Sverige |",
-    "amount": 15665
+    "amount": 15664
   },
   {
     "week": 53,
@@ -207,7 +201,7 @@
     "week": 53,
     "year": 2020,
     "region": "Västra Götaland",
-    "amount": 2346
+    "amount": 2345
   },
   {
     "week": 53,
@@ -267,13 +261,13 @@
     "week": 1,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 50775
+    "amount": 50763
   },
   {
     "week": 1,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 7188
+    "amount": 7182
   },
   {
     "week": 1,
@@ -321,7 +315,7 @@
     "week": 1,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 1664
+    "amount": 1660
   },
   {
     "week": 1,
@@ -339,7 +333,7 @@
     "week": 1,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 7120
+    "amount": 7118
   },
   {
     "week": 1,
@@ -399,13 +393,13 @@
     "week": 2,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 128399
+    "amount": 128361
   },
   {
     "week": 2,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 22757
+    "amount": 22743
   },
   {
     "week": 2,
@@ -429,7 +423,7 @@
     "week": 2,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 6949
+    "amount": 6947
   },
   {
     "week": 2,
@@ -453,13 +447,13 @@
     "week": 2,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 2810
+    "amount": 2802
   },
   {
     "week": 2,
     "year": 2021,
     "region": "Skåne",
-    "amount": 14940
+    "amount": 14938
   },
   {
     "week": 2,
@@ -471,7 +465,7 @@
     "week": 2,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 16364
+    "amount": 16357
   },
   {
     "week": 2,
@@ -489,13 +483,13 @@
     "week": 2,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 5130
+    "amount": 5128
   },
   {
     "week": 2,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 3178
+    "amount": 3176
   },
   {
     "week": 2,
@@ -525,2514 +519,2514 @@
     "week": 2,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 3505
+    "amount": 3504
   },
   {
     "week": 3,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 241382
+    "amount": 231078
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 36538
+    "amount": 34647
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 7962
+    "amount": 7740
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 11413
+    "amount": 10599
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 13309
+    "amount": 11316
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 11233
+    "amount": 10354
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 4421
+    "amount": 4219
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 8435
+    "amount": 8145
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Gotland",
-    "amount": 2353
+    "amount": 2163
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 4469
+    "amount": 4185
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Skåne",
-    "amount": 29001
+    "amount": 28665
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Halland",
-    "amount": 7248
+    "amount": 7065
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 37033
+    "amount": 36613
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Värmland",
-    "amount": 6696
+    "amount": 6523
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Örebro",
-    "amount": 10311
+    "amount": 9508
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 8709
+    "amount": 8571
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 10156
+    "amount": 9985
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 7750
+    "amount": 7118
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 7966
+    "amount": 7777
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 3605
+    "amount": 3443
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 5729
+    "amount": 5606
   },
   {
     "week": 3,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 7045
+    "amount": 6836
   },
   {
     "week": 4,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 330331
+    "amount": 294688
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 50552
+    "amount": 44519
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 11710
+    "amount": 10504
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 14119
+    "amount": 11540
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 18049
+    "amount": 14372
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 14509
+    "amount": 13112
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 6448
+    "amount": 5312
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 13243
+    "amount": 11462
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Gotland",
-    "amount": 4452
+    "amount": 4059
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 6896
+    "amount": 5525
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Skåne",
-    "amount": 40427
+    "amount": 39037
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Halland",
-    "amount": 10819
+    "amount": 10507
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 46202
+    "amount": 44001
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Värmland",
-    "amount": 11094
+    "amount": 10046
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Örebro",
-    "amount": 12805
+    "amount": 10870
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 10620
+    "amount": 10235
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 13347
+    "amount": 10435
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 11433
+    "amount": 9524
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 10078
+    "amount": 8372
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 4763
+    "amount": 3837
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 8126
+    "amount": 7999
   },
   {
     "week": 4,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 10639
+    "amount": 9420
   },
   {
     "week": 5,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 429320
+    "amount": 338253
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 69236
+    "amount": 52917
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 16144
+    "amount": 12727
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 17862
+    "amount": 11906
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 22774
+    "amount": 16801
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 19761
+    "amount": 13526
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 8836
+    "amount": 6761
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 15512
+    "amount": 13579
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Gotland",
-    "amount": 5932
+    "amount": 4832
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 9462
+    "amount": 6978
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Skåne",
-    "amount": 54054
+    "amount": 45795
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Halland",
-    "amount": 15394
+    "amount": 12795
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 56244
+    "amount": 49349
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Värmland",
-    "amount": 14581
+    "amount": 12218
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Örebro",
-    "amount": 15825
+    "amount": 12162
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 15660
+    "amount": 10746
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 13466
+    "amount": 10503
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 16827
+    "amount": 12418
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 12070
+    "amount": 9075
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 6041
+    "amount": 3975
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 10640
+    "amount": 9479
   },
   {
     "week": 5,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 12999
+    "amount": 9711
   },
   {
     "week": 6,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 544488
+    "amount": 383708
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 83964
+    "amount": 57573
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 20766
+    "amount": 15006
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 21982
+    "amount": 12821
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 28568
+    "amount": 18673
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 24601
+    "amount": 15435
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 11313
+    "amount": 7432
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 19744
+    "amount": 14691
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Gotland",
-    "amount": 6430
+    "amount": 5105
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 12055
+    "amount": 8256
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Skåne",
-    "amount": 63320
+    "amount": 49134
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Halland",
-    "amount": 22128
+    "amount": 15981
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 75001
+    "amount": 59280
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Värmland",
-    "amount": 18779
+    "amount": 14112
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Örebro",
-    "amount": 20727
+    "amount": 14751
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 18547
+    "amount": 11653
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 20446
+    "amount": 11211
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 21072
+    "amount": 14925
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 14791
+    "amount": 9984
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 8118
+    "amount": 4973
   },
   {
     "week": 6,
     "year": 2021,
     "region": "Västerbotten",
+    "amount": 10897
+  },
+  {
+    "week": 6,
+    "year": 2021,
+    "region": "Norrbotten",
+    "amount": 11815
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "| Sverige |",
+    "amount": 452853
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Stockholm",
+    "amount": 65435
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Uppsala",
+    "amount": 17539
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Södermanland",
+    "amount": 16199
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Östergötland",
+    "amount": 23533
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Jönköping",
+    "amount": 18678
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Kronoberg",
+    "amount": 9282
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Kalmar",
+    "amount": 16815
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Gotland",
+    "amount": 5317
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Blekinge",
+    "amount": 10709
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Skåne",
+    "amount": 55740
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Halland",
+    "amount": 19283
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Västra Götaland",
+    "amount": 69346
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Värmland",
+    "amount": 16967
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Örebro",
+    "amount": 17197
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Västmanland",
+    "amount": 14401
+  },
+  {
+    "week": 7,
+    "year": 2021,
+    "region": "Dalarna",
     "amount": 14102
   },
   {
-    "week": 6,
-    "year": 2021,
-    "region": "Norrbotten",
-    "amount": 18034
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "| Sverige |",
-    "amount": 694750
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Stockholm",
-    "amount": 102044
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Uppsala",
-    "amount": 25584
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Södermanland",
-    "amount": 27174
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Östergötland",
-    "amount": 36810
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Jönköping",
-    "amount": 30829
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Kronoberg",
-    "amount": 14290
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Kalmar",
-    "amount": 24777
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Gotland",
-    "amount": 7641
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Blekinge",
-    "amount": 15778
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Skåne",
-    "amount": 83661
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Halland",
-    "amount": 28849
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Västra Götaland",
-    "amount": 103916
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Värmland",
-    "amount": 24552
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Örebro",
-    "amount": 26779
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Västmanland",
-    "amount": 23555
-  },
-  {
-    "week": 7,
-    "year": 2021,
-    "region": "Dalarna",
-    "amount": 23965
-  },
-  {
     "week": 7,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 26822
+    "amount": 18373
   },
   {
     "week": 7,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 18014
+    "amount": 11313
   },
   {
     "week": 7,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 10473
+    "amount": 6983
   },
   {
     "week": 7,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 17065
+    "amount": 12002
   },
   {
     "week": 7,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 22172
+    "amount": 13639
   },
   {
     "week": 8,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 847123
+    "amount": 552742
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 129658
+    "amount": 84285
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 30471
+    "amount": 20375
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 32401
+    "amount": 21070
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 44953
+    "amount": 29275
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 37560
+    "amount": 24760
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 16952
+    "amount": 10819
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 30288
+    "amount": 19204
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Gotland",
-    "amount": 10120
+    "amount": 5788
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 18513
+    "amount": 12223
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Skåne",
-    "amount": 102811
+    "amount": 65396
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Halland",
-    "amount": 33906
+    "amount": 21967
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 124093
+    "amount": 82447
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Värmland",
-    "amount": 31052
+    "amount": 20015
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Örebro",
-    "amount": 32432
+    "amount": 22010
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 27221
+    "amount": 17742
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 27917
+    "amount": 17904
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 33326
+    "amount": 22376
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 23247
+    "amount": 14780
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 12807
+    "amount": 9128
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 22156
+    "amount": 14920
   },
   {
     "week": 8,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 25239
+    "amount": 16258
   },
   {
     "week": 9,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 1030319
+    "amount": 699945
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 157541
+    "amount": 108496
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 38067
+    "amount": 25643
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 39243
+    "amount": 27611
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 54456
+    "amount": 38040
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 43930
+    "amount": 30622
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 21192
+    "amount": 14401
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 37773
+    "amount": 24510
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Gotland",
-    "amount": 11175
+    "amount": 6531
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 21829
+    "amount": 14540
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Skåne",
-    "amount": 125341
+    "amount": 81290
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Halland",
-    "amount": 40549
+    "amount": 25934
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 154562
+    "amount": 108155
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Värmland",
-    "amount": 38894
+    "amount": 26150
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Örebro",
-    "amount": 38650
+    "amount": 26760
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 33184
+    "amount": 23342
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 31581
+    "amount": 21090
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 38869
+    "amount": 26235
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 28858
+    "amount": 19804
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 16664
+    "amount": 12026
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 28189
+    "amount": 19539
   },
   {
     "week": 9,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 29772
+    "amount": 19226
   },
   {
     "week": 10,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 1248370
+    "amount": 878632
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 194387
+    "amount": 139523
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 44355
+    "amount": 29238
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 47595
+    "amount": 34091
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 65280
+    "amount": 45926
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 52592
+    "amount": 37327
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 24666
+    "amount": 16872
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 43860
+    "amount": 29957
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Gotland",
-    "amount": 13424
+    "amount": 8556
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 26438
+    "amount": 17691
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Skåne",
-    "amount": 153353
+    "amount": 105994
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Halland",
-    "amount": 48501
+    "amount": 32082
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 189490
+    "amount": 138880
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Värmland",
-    "amount": 45622
+    "amount": 31742
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Örebro",
-    "amount": 46107
+    "amount": 32193
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 39887
+    "amount": 28469
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 38656
+    "amount": 27176
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 45519
+    "amount": 31238
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 35766
+    "amount": 26034
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 20433
+    "amount": 14760
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 35999
+    "amount": 26115
   },
   {
     "week": 10,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 36440
+    "amount": 24768
   },
   {
     "week": 11,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 1422792
+    "amount": 997968
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 233307
+    "amount": 163710
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 50533
+    "amount": 33128
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 54817
+    "amount": 39558
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 75718
+    "amount": 52903
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 59122
+    "amount": 40513
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 27836
+    "amount": 19235
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 48079
+    "amount": 32944
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Gotland",
-    "amount": 15113
+    "amount": 9965
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 28993
+    "amount": 18862
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Skåne",
-    "amount": 174135
+    "amount": 123698
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Halland",
-    "amount": 54884
+    "amount": 35898
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 212506
+    "amount": 155839
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Värmland",
-    "amount": 51689
+    "amount": 35903
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Örebro",
-    "amount": 50105
+    "amount": 34794
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 45932
+    "amount": 32668
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 44353
+    "amount": 30784
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 52425
+    "amount": 35981
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 40857
+    "amount": 29257
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 23561
+    "amount": 16583
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 40174
+    "amount": 29831
   },
   {
     "week": 11,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 38653
+    "amount": 25914
   },
   {
     "week": 12,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 1619883
+    "amount": 1127164
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 272577
+    "amount": 190369
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 57028
+    "amount": 37452
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 62472
+    "amount": 43273
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 86530
+    "amount": 59815
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 65263
+    "amount": 42931
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 32536
+    "amount": 22218
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 54064
+    "amount": 38178
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Gotland",
-    "amount": 15575
+    "amount": 10355
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 31414
+    "amount": 20231
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Skåne",
-    "amount": 197978
+    "amount": 141405
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Halland",
-    "amount": 63476
+    "amount": 42955
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 241417
+    "amount": 175638
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Värmland",
-    "amount": 59548
+    "amount": 40940
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Örebro",
-    "amount": 56508
+    "amount": 38897
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 52189
+    "amount": 35914
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 50105
+    "amount": 34346
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 60722
+    "amount": 41418
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 44366
+    "amount": 30119
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 26337
+    "amount": 17973
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 46228
+    "amount": 32758
   },
   {
     "week": 12,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 43550
+    "amount": 29979
   },
   {
     "week": 13,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 1883358
+    "amount": 1323239
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 335835
+    "amount": 238406
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 61642
+    "amount": 41069
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 69832
+    "amount": 48225
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 96327
+    "amount": 68572
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 75866
+    "amount": 52361
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 36841
+    "amount": 25810
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 60422
+    "amount": 42971
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Gotland",
-    "amount": 16056
+    "amount": 10807
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 35342
+    "amount": 23160
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Skåne",
-    "amount": 227702
+    "amount": 162844
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Halland",
-    "amount": 71286
+    "amount": 47503
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 280128
+    "amount": 200689
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Värmland",
-    "amount": 72758
+    "amount": 51486
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Örebro",
-    "amount": 66764
+    "amount": 46494
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 61454
+    "amount": 41893
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 59461
+    "amount": 43372
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 70089
+    "amount": 48243
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 50757
+    "amount": 33256
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 29539
+    "amount": 21126
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 52256
+    "amount": 38408
   },
   {
     "week": 13,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 53001
+    "amount": 36544
   },
   {
     "week": 14,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 2223545
+    "amount": 1570585
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 396265
+    "amount": 279436
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 72801
+    "amount": 51644
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 83054
+    "amount": 58283
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 113632
+    "amount": 84056
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 91371
+    "amount": 67363
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 45122
+    "amount": 32294
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 71017
+    "amount": 49563
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Gotland",
-    "amount": 18453
+    "amount": 13121
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 41114
+    "amount": 27949
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Skåne",
-    "amount": 269354
+    "amount": 189765
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Halland",
-    "amount": 85082
+    "amount": 57577
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 331419
+    "amount": 230601
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Värmland",
-    "amount": 87843
+    "amount": 63160
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Örebro",
-    "amount": 77305
+    "amount": 54568
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 68319
+    "amount": 45283
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 72386
+    "amount": 56082
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 81876
+    "amount": 56102
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 61329
+    "amount": 41221
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 33026
+    "amount": 24420
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 61520
+    "amount": 43798
   },
   {
     "week": 14,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 61257
+    "amount": 44299
   },
   {
     "week": 15,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 2699982
+    "amount": 1981160
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 481884
+    "amount": 356143
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 87772
+    "amount": 63254
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 95648
+    "amount": 69256
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 138180
+    "amount": 106004
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 108147
+    "amount": 82869
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 57124
+    "amount": 43561
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 87306
+    "amount": 62909
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Gotland",
-    "amount": 20699
+    "amount": 15300
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 48473
+    "amount": 35101
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Skåne",
-    "amount": 333090
+    "amount": 237289
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Halland",
-    "amount": 100126
+    "amount": 72193
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 407157
+    "amount": 291356
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Värmland",
-    "amount": 103190
+    "amount": 77969
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Örebro",
-    "amount": 89661
+    "amount": 64771
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 83779
+    "amount": 60350
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 88808
+    "amount": 72204
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 97918
+    "amount": 68649
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 77926
+    "amount": 56850
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 40665
+    "amount": 31919
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 76994
+    "amount": 55637
   },
   {
     "week": 15,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 75435
+    "amount": 57576
   },
   {
     "week": 16,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 3138004
+    "amount": 2381022
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 564693
+    "amount": 433618
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 102875
+    "amount": 74334
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 106989
+    "amount": 79606
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 159900
+    "amount": 124088
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 121723
+    "amount": 93835
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 65131
+    "amount": 51218
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 101654
+    "amount": 76725
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Gotland",
-    "amount": 23303
+    "amount": 16551
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 55630
+    "amount": 41987
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Skåne",
-    "amount": 395082
+    "amount": 296512
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Halland",
-    "amount": 113333
+    "amount": 85162
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 477672
+    "amount": 358505
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Värmland",
-    "amount": 115203
+    "amount": 89824
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Örebro",
-    "amount": 105684
+    "amount": 77491
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 96959
+    "amount": 73132
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 104012
+    "amount": 84891
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 112260
+    "amount": 80046
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 90307
+    "amount": 68980
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 46882
+    "amount": 36172
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 89687
+    "amount": 67306
   },
   {
     "week": 16,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 89025
+    "amount": 71039
   },
   {
     "week": 17,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 3533689
+    "amount": 2749319
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 647832
+    "amount": 513769
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 121235
+    "amount": 92385
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 123348
+    "amount": 92946
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 182050
+    "amount": 141903
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 137849
+    "amount": 107179
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 71355
+    "amount": 57180
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 112230
+    "amount": 86946
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Gotland",
-    "amount": 25504
+    "amount": 17588
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 60641
+    "amount": 46884
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Skåne",
-    "amount": 441685
+    "amount": 342235
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Halland",
-    "amount": 122417
+    "amount": 94117
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 540449
+    "amount": 419366
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Värmland",
-    "amount": 126662
+    "amount": 100967
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Örebro",
-    "amount": 116596
+    "amount": 85888
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 107932
+    "amount": 84000
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 117061
+    "amount": 94794
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 126056
+    "amount": 93188
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 99978
+    "amount": 78455
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 52717
+    "amount": 40513
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 101026
+    "amount": 78153
   },
   {
     "week": 17,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 99066
+    "amount": 80863
   },
   {
     "week": 18,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 3983223
+    "amount": 3085515
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 749194
+    "amount": 594122
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 136163
+    "amount": 106815
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 132611
+    "amount": 99705
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 204926
+    "amount": 156888
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 150538
+    "amount": 116849
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 79743
+    "amount": 62539
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 125643
+    "amount": 95284
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Gotland",
-    "amount": 27707
+    "amount": 19233
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 66440
+    "amount": 51629
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Skåne",
-    "amount": 498551
+    "amount": 382882
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Halland",
-    "amount": 137415
+    "amount": 102010
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 612731
+    "amount": 475337
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Värmland",
-    "amount": 139581
+    "amount": 108961
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Örebro",
-    "amount": 131375
+    "amount": 97874
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 122810
+    "amount": 95393
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 131354
+    "amount": 105112
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 139703
+    "amount": 105370
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 111192
+    "amount": 88792
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 60733
+    "amount": 46148
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 114042
+    "amount": 86410
   },
   {
     "week": 18,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 110771
+    "amount": 88162
   },
   {
     "week": 19,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 4394341
+    "amount": 3352937
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 850005
+    "amount": 670785
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 153571
+    "amount": 120054
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 143293
+    "amount": 108045
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 225428
+    "amount": 166777
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 165946
+    "amount": 122963
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 88076
+    "amount": 67651
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 135910
+    "amount": 99799
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Gotland",
-    "amount": 29863
+    "amount": 20599
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 74028
+    "amount": 56546
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Skåne",
-    "amount": 543173
+    "amount": 405847
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Halland",
-    "amount": 148502
+    "amount": 110887
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 673087
+    "amount": 521301
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Värmland",
-    "amount": 151108
+    "amount": 114621
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Örebro",
-    "amount": 144951
+    "amount": 105458
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 135217
+    "amount": 103911
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 146021
+    "amount": 110964
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 153124
+    "amount": 116298
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 120693
+    "amount": 94495
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 66465
+    "amount": 49069
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 124816
+    "amount": 94341
   },
   {
     "week": 19,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 121064
+    "amount": 92526
   },
   {
     "week": 20,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 4829612
+    "amount": 3589394
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 953999
+    "amount": 744000
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 171929
+    "amount": 129423
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 159173
+    "amount": 113271
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 248243
+    "amount": 175403
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 183520
+    "amount": 126591
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 97051
+    "amount": 71999
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 147259
+    "amount": 103377
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Gotland",
-    "amount": 33150
+    "amount": 22141
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 84118
+    "amount": 60995
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Skåne",
-    "amount": 592106
+    "amount": 440665
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Halland",
-    "amount": 164120
+    "amount": 117792
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 728959
+    "amount": 559825
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Värmland",
-    "amount": 166031
+    "amount": 116406
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Örebro",
-    "amount": 157981
+    "amount": 112728
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 143047
+    "amount": 108617
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 160894
+    "amount": 115184
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 167080
+    "amount": 123224
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 129204
+    "amount": 96554
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 72577
+    "amount": 52072
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 135598
+    "amount": 101076
   },
   {
     "week": 20,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 133573
+    "amount": 98051
   },
   {
     "week": 21,
     "year": 2021,
     "region": "| Sverige |",
-    "amount": 5260753
+    "amount": 3744353
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Stockholm",
-    "amount": 1055391
+    "amount": 796414
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Uppsala",
-    "amount": 189549
+    "amount": 138324
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Södermanland",
-    "amount": 175599
+    "amount": 119305
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Östergötland",
-    "amount": 267859
+    "amount": 182659
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Jönköping",
-    "amount": 199563
+    "amount": 130464
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Kronoberg",
-    "amount": 105534
+    "amount": 73633
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Kalmar",
-    "amount": 157073
+    "amount": 106196
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Gotland",
-    "amount": 35611
+    "amount": 22947
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Blekinge",
-    "amount": 94707
+    "amount": 66004
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Skåne",
-    "amount": 635894
+    "amount": 455885
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Halland",
-    "amount": 181699
+    "amount": 124946
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Västra Götaland",
-    "amount": 791354
+    "amount": 577687
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Värmland",
-    "amount": 177355
+    "amount": 119643
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Örebro",
-    "amount": 173250
+    "amount": 119784
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Västmanland",
-    "amount": 155735
+    "amount": 109960
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Dalarna",
-    "amount": 175018
+    "amount": 119662
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Gävleborg",
-    "amount": 179386
+    "amount": 125778
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Västernorrland",
-    "amount": 141694
+    "amount": 98521
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Jämtland",
-    "amount": 78948
+    "amount": 52925
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Västerbotten",
-    "amount": 146044
+    "amount": 104937
   },
   {
     "week": 21,
     "year": 2021,
     "region": "Norrbotten",
-    "amount": 143490
+    "amount": 98679
   }
 ]

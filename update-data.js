@@ -18,7 +18,9 @@ const main = () => {
         sourceFile: fileName,
       });
 
-      const records = result["Vaccinationer tidsserie"];
+      const records = result["Vaccinerade tidsserie"].filter(
+        (record) => record.F === "Minst 1 dos"
+      );
       records.splice(0, 1);
 
       const cleanData = records.map((record) => ({

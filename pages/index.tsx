@@ -57,7 +57,7 @@ export default function Home() {
 
           <Card
             description={total.amount.toLocaleString()}
-            heading="Antal givna vaccinationer i Sverige"
+            heading="Antal vaccinerade i Sverige"
             className="mt-6"
           />
 
