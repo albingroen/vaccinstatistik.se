@@ -1,5 +1,6 @@
 {
   "name": "frontend-vaccines",
+  "description": "A site where you can see how the covid-19 vaccination is going in Sweden",
   "version": "0.1.0",
   "private": true,
   "scripts": {

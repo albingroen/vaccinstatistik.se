@@ -1,5 +1,9 @@
 # vaccinstatistik.se
 
+[![Update data](https://github.com/albingroen/vaccination-site/actions/workflows/action.yml/badge.svg?branch=main)](https://github.com/albingroen/vaccination-site/actions/workflows/action.yml)
+
+> A site where you can see how the covid-19 vaccination is going in Sweden
+
 ## What is this?
 
 A site where you can see the total amount of vaccinations in Sweden, as well as per municipality, and a little trend graph. 
