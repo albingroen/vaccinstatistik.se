@@ -1,7 +1,1 @@
-export type Record = {
-  week: number
-  year: number
-  region: string
-  amount: number
-  progress: number
-}
+export type Record = any

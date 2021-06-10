@@ -14,53 +14,94 @@ const main = () => {
     .then(async (res) => {
       const fileName = "data.xlsx";
       fs.writeFileSync(fileName, res.data);
-      const result = excelToJson({
+      const rawJson = excelToJson({
         sourceFile: fileName,
       });
 
-      // const vaccinatedRegionAndAge = result["Vaccinerade kommun och ålder"];
-      // const vaccinations = result["Vaccinationer tidsserie"];
-      // const vaccinatedRegion = result["Vaccinerade kommun"];
-      const vaccinated = result["Vaccinerade tidsserie"];
-      const vaccinatedAge = result["Vaccinerade ålder"];
-      // const vaccinatedSex = result["Vaccinerade kön"];
+      const result = {};
 
-      const vaccinatedRecords = vaccinated.filter(
-        (record) => record.F === "Minst 1 dos"
-      );
-      vaccinatedRecords.splice(0, 1);
+      Object.entries(rawJson).forEach(([type, records]) => {
+        switch (type) {
+          case "Vaccinationer tidsserie":
+            result[type] = records
+              .filter((_, i) => !!i)
+              .map((record) => ({
+                week: Number(record.A),
+                year: Number(record.B),
+                region: record.C,
+                amount: record.D,
+              }));
+            break;
 
-      const vaccinatedAgeRecords = vaccinatedAge.filter(
-        (record) => record.E === "Minst 1 dos"
-      );
-      vaccinatedAgeRecords.splice(0, 1);
+          case "Vaccinerade tidsserie":
+            result[type] = records
+              .filter((_, i) => !!i)
+              .map((record) => ({
+                week: Number(record.A),
+                year: Number(record.B),
+                region: record.C,
+                amount: record.D,
+                share: Number(record.E),
+                status: record.F,
+              }));
+            break;
 
-      const cleanVaccinated = vaccinatedRecords.map((record) => ({
-        progress: Number(record.E),
-        week: Number(record.A),
-        year: Number(record.B),
-        region: record.C,
-        amount: record.D,
-      }));
+          case "Vaccinerade ålder":
+            result[type] = records
+              .filter((_, i) => !!i)
+              .map((record) => ({
+                region: record.A,
+                age: record.B,
+                amount: record.C,
+                share: Number(record.D),
+                status: record.E,
+              }));
+            break;
 
-      const cleanVaccinatedAge = vaccinatedAgeRecords.map((record) => ({
-        progress: Number(record.D),
-        region: record.A,
-        amount: record.C,
-        age: record.B,
-      }));
+          case "Vaccinerade kön":
+            result[type] = records
+              .filter((_, i) => !!i)
+              .map((record) => ({
+                sex: record.A,
+                amount: record.B,
+                share: Number(record.C),
+                status: record.D,
+              }));
+            break;
 
-      fs.writeFileSync(
-        "./vaccinations.json",
-        JSON.stringify(
-          {
-            vaccinated: cleanVaccinated,
-            vaccinatedAge: cleanVaccinatedAge,
-          },
-          null,
-          2
-        )
-      );
+          case "Vaccinerade kommun":
+            result[type] = records
+              .filter((_, i) => !!i)
+              .map((record) => ({
+                code: record.A,
+                name: record.B,
+                amountAtLeast1: record.C,
+                amountFull: record.D,
+                shareAtLeast1: Number(record.E),
+                shareFull: Number(record.F),
+              }));
+            break;
+
+          case "Vaccinerade kommun och ålder":
+            result[type] = records
+              .filter((_, i) => !!i)
+              .map((record) => ({
+                county: record.A,
+                countyName: record.B,
+                municipality: record.C,
+                municipalityName: record.D,
+                age: record.E,
+                population: record.F,
+                amountAtLeast1: record.G,
+                amountFull: record.H,
+                shareAtLeast1: Number(record.I),
+                shareFull: Number(record.J),
+              }));
+            break;
+        }
+      });
+
+      fs.writeFileSync("./vaccinations.json", JSON.stringify(result, null, 2));
 
       fs.rmSync("./data.xlsx");
 

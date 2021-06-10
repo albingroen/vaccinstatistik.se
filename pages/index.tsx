@@ -1,6 +1,5 @@
 import getRegionTotals from "../lib/get-municipality-totals";
 import getTotal from "../lib/get-total";
-import { Record } from "../types";
 import data from "../vaccinations.json";
 import Card from "../components/Card";
 import Head from "next/head";
@@ -9,6 +8,7 @@ import {
   BarChart,
   Bar,
   Area,
+  Legend,
   ResponsiveContainer,
   CartesianGrid,
   XAxis,
@@ -17,11 +17,11 @@ import {
 } from "recharts";
 import { useState } from "react";
 
-const chartData = data.vaccinated.filter((record) =>
+const nationalData = data["Vaccinerade tidsserie"].filter((record) =>
   record.region.includes("Sverige")
 );
 
-const barData = data.vaccinatedAge.filter(
+const nationalAgeData = data["Vaccinerade ålder"].filter(
   (record) => record.region.includes("Sverige") && record.age !== "Totalt"
 );
 
@@ -36,8 +36,10 @@ export default function Home() {
   const [search, setSearch] = useState<string>();
 
   // Data
-  const regionTotals = getRegionTotals(data.vaccinated as Record[]);
-  const total = getTotal(data.vaccinated as Record[]);
+  const regionTotals = getRegionTotals(data["Vaccinerade tidsserie"]);
+  const total = getTotal(data["Vaccinerade tidsserie"]);
+
+  // const estimate = getEstimate(data["Vaccinerade tidsserie"]);
 
   return (
     <>
@@ -64,7 +66,7 @@ export default function Home() {
           <p className="text-gray-500">Statistik från vecka {total.week}</p>
 
           <Card
-            suffix={`(~${Math.round(total.progress * 100)}%)`}
+            suffix={`(~${Math.round(total.share * 100)}%)`}
             description={`${total.amount.toLocaleString()}`}
             heading="Antal vaccinerade i Sverige"
             className="mt-6"
@@ -89,7 +91,7 @@ export default function Home() {
             .map((record) => (
               <Card
                 className="inline-block mr-4 w-72 snap-ml-4 sm:snap-ml-0.5 snap-center sm:snap-start"
-                suffix={`(~${Math.round(record.progress * 100)}%)`}
+                suffix={`(~${Math.round(record.share * 100)}%)`}
                 description={record.amount.toLocaleString()}
                 heading={record.region}
                 key={record.region}
@@ -105,21 +107,37 @@ export default function Home() {
             <ResponsiveContainer className="mt-4" height={200}>
               <AreaChart
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
-                data={chartData}
+                data={nationalData
+                  .filter((record) => record.status === "Färdigvaccinerade")
+                  .map((record) => {
+                    const atLeast1 =
+                      nationalData.find(
+                        (subRecord) =>
+                          subRecord.status === "Minst 1 dos" &&
+                          subRecord.week === record.week
+                      )?.amount - record.amount;
+
+                    return {
+                      ...record,
+                      "2 doser": record.amount,
+                      "1 dos": atLeast1,
+                    };
+                  })}
               >
-                <defs>
-                  <linearGradient id="colorAmount" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#82ca9d" stopOpacity={0.8} />
-                    <stop offset="95%" stopColor="#82ca9d" stopOpacity={0} />
-                  </linearGradient>
-                </defs>
+                <Area
+                  dataKey="1 dos"
+                  stroke="#F59E0B"
+                  fillOpacity={0.25}
+                  type="monotone"
+                  fill="#F59E0B"
+                />
 
                 <Area
-                  fill="url(#colorAmount)"
-                  dataKey="amount"
+                  dataKey="2 doser"
                   stroke="#82ca9d"
                   fillOpacity={1}
                   type="monotone"
+                  fill="#82ca9d"
                 />
 
                 <XAxis
@@ -134,6 +152,9 @@ export default function Home() {
                   tickMargin={5}
                   tickSize={5}
                 />
+
+                <Legend />
+
                 <CartesianGrid strokeDasharray="3 3" style={{ opacity: 0.5 }} />
                 <Tooltip
                   formatter={(value: number) => [
@@ -152,7 +173,26 @@ export default function Home() {
             </h2>
 
             <ResponsiveContainer className="mt-4" height={200}>
-              <BarChart width={730} height={250} data={barData}>
+              <BarChart
+                width={730}
+                height={250}
+                data={nationalAgeData
+                  .filter((record) => record.status === "Färdigvaccinerade")
+                  .map((record) => {
+                    const atLeast1 =
+                      nationalAgeData.find(
+                        (subRecord) =>
+                          subRecord.status === "Minst 1 dos" &&
+                          subRecord.age === record.age
+                      )?.amount - record.amount;
+
+                    return {
+                      ...record,
+                      "2 doser": record.amount,
+                      "1 dos": atLeast1,
+                    };
+                  })}
+              >
                 <CartesianGrid
                   strokeDasharray="3 3"
                   style={{ opacity: 0.75 }}
@@ -176,10 +216,27 @@ export default function Home() {
                     "Antal",
                   ]}
                 />
-                <Bar maxBarSize={50} dataKey="amount" fill="#82ca9d" />
+                <Bar maxBarSize={50} dataKey="1 dos" fill="#F59E0B" />
+                <Bar maxBarSize={50} dataKey="2 doser" fill="#82ca9d" />
+                <Legend />
               </BarChart>
             </ResponsiveContainer>
           </Card>
+
+          {/* <Card className="mt-6"> */}
+          {/*   <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide"> */}
+          {/*     ESTIMERAD MÅLPUNKT */}
+          {/*   </h2> */}
+          {/*  */}
+          {/*   <h3 className="mt-4 text-4xl font-semibold text-gray-500"> */}
+          {/*     {estimate.date.format("DD MMM YYYY")} */}
+          {/*   </h3> */}
+          {/*  */}
+          {/*   <p className="mt-2 text-gray-500"> */}
+          {/*     Med en beräkning på {estimate.lastAddition.toLocaleString()}{" "} */}
+          {/*     vaccinerade / vecka. */}
+          {/*   </p> */}
+          {/* </Card> */}
 
           <p className="mt-6 text-sm leading-relaxed text-gray-500 sm:text-normal">
             Den här sidan hämtar data från{" "}
