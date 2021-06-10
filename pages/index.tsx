@@ -106,7 +106,7 @@ export default function Home() {
             </h2>
             <ResponsiveContainer className="mt-4" height={200}>
               <AreaChart
-                margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+                margin={{ top: 10, right: 5, left: 0, bottom: 0 }}
                 data={nationalData
                   .filter((record) => record.status === "Färdigvaccinerade")
                   .map((record) => {
