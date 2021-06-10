@@ -18,12 +18,24 @@ const main = () => {
         sourceFile: fileName,
       });
 
-      const records = result["Vaccinerade tidsserie"].filter(
+      // const vaccinatedRegionAndAge = result["Vaccinerade kommun och ålder"];
+      // const vaccinations = result["Vaccinationer tidsserie"];
+      // const vaccinatedRegion = result["Vaccinerade kommun"];
+      const vaccinated = result["Vaccinerade tidsserie"];
+      const vaccinatedAge = result["Vaccinerade ålder"];
+      // const vaccinatedSex = result["Vaccinerade kön"];
+
+      const vaccinatedRecords = vaccinated.filter(
         (record) => record.F === "Minst 1 dos"
       );
-      records.splice(0, 1);
+      vaccinatedRecords.splice(0, 1);
 
-      const cleanData = records.map((record) => ({
+      const vaccinatedAgeRecords = vaccinatedAge.filter(
+        (record) => record.E === "Minst 1 dos"
+      );
+      vaccinatedAgeRecords.splice(0, 1);
+
+      const cleanVaccinated = vaccinatedRecords.map((record) => ({
         progress: Number(record.E),
         week: Number(record.A),
         year: Number(record.B),
@@ -31,9 +43,23 @@ const main = () => {
         amount: record.D,
       }));
 
+      const cleanVaccinatedAge = vaccinatedAgeRecords.map((record) => ({
+        progress: Number(record.D),
+        region: record.A,
+        amount: record.C,
+        age: record.B,
+      }));
+
       fs.writeFileSync(
         "./vaccinations.json",
-        JSON.stringify(cleanData, null, 2)
+        JSON.stringify(
+          {
+            vaccinated: cleanVaccinated,
+            vaccinatedAge: cleanVaccinatedAge,
+          },
+          null,
+          2
+        )
       );
 
       fs.rmSync("./data.xlsx");

@@ -6,6 +6,8 @@ import Card from "../components/Card";
 import Head from "next/head";
 import {
   AreaChart,
+  BarChart,
+  Bar,
   Area,
   ResponsiveContainer,
   CartesianGrid,
@@ -15,7 +17,13 @@ import {
 } from "recharts";
 import { useState } from "react";
 
-const chartData = data.filter((record) => record.region.includes("Sverige"));
+const chartData = data.vaccinated.filter((record) =>
+  record.region.includes("Sverige")
+);
+
+const barData = data.vaccinatedAge.filter(
+  (record) => record.region.includes("Sverige") && record.age !== "Totalt"
+);
 
 const image =
   "https://res.cloudinary.com/albin-groen/image/upload/v1623183211/vaccinstatistik-se-seo_qinhm7.png";
@@ -28,8 +36,8 @@ export default function Home() {
   const [search, setSearch] = useState<string>();
 
   // Data
-  const regionTotals = getRegionTotals(data as Record[]);
-  const total = getTotal(data as Record[]);
+  const regionTotals = getRegionTotals(data.vaccinated as Record[]);
+  const total = getTotal(data.vaccinated as Record[]);
 
   return (
     <>
@@ -91,7 +99,10 @@ export default function Home() {
 
         <div className="px-4 mt-4 sm:px-0">
           <Card>
-            <ResponsiveContainer height={200}>
+            <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide">
+              Vaccinerade över tid
+            </h2>
+            <ResponsiveContainer className="mt-4" height={200}>
               <AreaChart
                 margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
                 data={chartData}
@@ -132,6 +143,41 @@ export default function Home() {
                   labelFormatter={(week) => `Vecka ${week}`}
                 />
               </AreaChart>
+            </ResponsiveContainer>
+          </Card>
+
+          <Card className="mt-6">
+            <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide">
+              Vaccinerade per ålderskategori
+            </h2>
+
+            <ResponsiveContainer className="mt-4" height={200}>
+              <BarChart width={730} height={250} data={barData}>
+                <CartesianGrid
+                  strokeDasharray="3 3"
+                  style={{ opacity: 0.75 }}
+                />
+
+                <XAxis
+                  style={{ opacity: 0.5 }}
+                  tickMargin={5}
+                  dataKey="age"
+                  tickSize={5}
+                />
+                <YAxis
+                  tickFormatter={(value) => `${value / 1000000} M`}
+                  style={{ opacity: 0.5 }}
+                  tickMargin={5}
+                  tickSize={5}
+                />
+                <Tooltip
+                  formatter={(value: number) => [
+                    value.toLocaleString(),
+                    "Antal",
+                  ]}
+                />
+                <Bar maxBarSize={50} dataKey="amount" fill="#82ca9d" />
+              </BarChart>
             </ResponsiveContainer>
           </Card>
 
