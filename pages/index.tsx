@@ -103,16 +103,12 @@ export default function Home() {
             )
             .map((record) => (
               <Card
-                className="inline-block mr-4 snap-ml-4 sm:snap-ml-0.5 snap-center w-48 sm:snap-start"
+                className="inline-block mr-4 snap-ml-4 sm:snap-ml-0.5 snap-center w-64 sm:snap-start"
+                suffix={`(~${Math.round(record.shareFull * 100)}%)`}
+                description={record.amountFull.toLocaleString()}
+                heading={record.name}
                 key={record.name}
               >
-                <p className="text-xl font-medium leading-snug text-gray-500">
-                  {record.name}
-                </p>
-
-                <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
-                  {record.amountFull}
-                </p>
               </Card>
             ))}
         </div>
