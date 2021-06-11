@@ -121,14 +121,16 @@ export default function Home() {
             .reverse()
             .filter((record) =>
               search
-                ? record.name.toLowerCase().includes(search.toLowerCase())
+                ? record.name
+                    .toLowerCase()
+                    .includes(search.toLowerCase().trim())
                 : true
             )
             .map((record) => (
               <Card
                 className="inline-block mr-4 snap-ml-4 sm:snap-ml-0.5 snap-center w-64 sm:snap-start"
-                suffix={`(~${Math.round(record.shareFull * 100)}%)`}
                 description={record.amountFull.toLocaleString()}
+                progress={Math.round(record.shareFull * 100)}
                 heading={record.name}
                 key={record.name}
               />

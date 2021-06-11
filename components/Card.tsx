@@ -1,9 +1,11 @@
 import { HTMLAttributes } from "react";
+import Progress from "./Progress";
 
 type Card = {
   heading?: string;
   description?: string;
   suffix?: string;
+  progress?: number;
 };
 
 export default function Card({
@@ -11,6 +13,7 @@ export default function Card({
   description,
   children,
   suffix,
+  progress,
   ...rest
 }: Card & HTMLAttributes<HTMLDivElement>) {
   return (
@@ -36,6 +39,12 @@ export default function Card({
 
             <p className="text-lg text-gray-500 text-green-600">{suffix}</p>
           </div>
+
+          {progress && (
+            <div className="mt-4">
+              <Progress className="bg-green-500" value={progress} />
+            </div>
+          )}
         </>
       )}
     </div>
