@@ -74,11 +74,17 @@ export default function Home() {
             </p>
 
             <div className="flex items-baseline space-x-4">
-              <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
+              <p
+                className="mt-4 text-4xl font-bold tracking-tight text-green-600"
+                title="Färdigvaccinerade"
+              >
                 {total.newestFullyVaccinated.amount}
               </p>
 
-              <p className="mt-4 text-4xl font-bold tracking-tight text-yellow-500">
+              <p
+                className="mt-4 text-4xl font-bold tracking-tight text-yellow-500"
+                title="Minst 1 dos"
+              >
                 {total.newestAtLeast1.amount}
               </p>
             </div>
@@ -108,8 +114,7 @@ export default function Home() {
                 description={record.amountFull.toLocaleString()}
                 heading={record.name}
                 key={record.name}
-              >
-              </Card>
+              />
             ))}
         </div>
 
