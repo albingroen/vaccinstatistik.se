@@ -73,7 +73,7 @@ export default function Home() {
               Antal vaccinerade i Sverige
             </p>
 
-            <div className="flex items-baseline space-x-4">
+            <div className="flex flex-col items-baseline sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
               <p
                 className="mt-4 text-4xl font-bold tracking-tight text-green-600"
                 title="Färdigvaccinerade"
