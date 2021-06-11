@@ -69,8 +69,8 @@ export default function Home() {
             Statistik från vecka {total.newestFullyVaccinated.week}
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="mt-6">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card>
               <p className="text-xl font-medium leading-snug text-gray-500">
                 Antal färdigvaccinerade
               </p>
@@ -85,7 +85,7 @@ export default function Home() {
               />
             </Card>
 
-            <Card className="mt-6">
+            <Card>
               <p className="text-xl font-medium leading-snug text-gray-500">
                 Antal med minst 1 dos
               </p>
