@@ -76,7 +76,7 @@ export default function Home() {
               </p>
 
               <p className="my-4 text-4xl font-bold tracking-tight text-green-600">
-                {total.newestFullyVaccinated.amount}
+                {total.newestFullyVaccinated.amount.toLocaleString()}
               </p>
 
               <Progress
@@ -91,7 +91,7 @@ export default function Home() {
               </p>
 
               <p className="my-4 text-4xl font-bold tracking-tight text-yellow-500">
-                {total.newestAtLeast1.amount}
+                {total.newestAtLeast1.amount.toLocaleString()}
               </p>
 
               <Progress
