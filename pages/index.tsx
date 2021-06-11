@@ -18,6 +18,7 @@ import { useState } from "react";
 import getEstimate from "../lib/get-estimate";
 import moment from "moment";
 import { sortBy } from "lodash";
+import Progress from "../components/Progress";
 
 const nationalData = data["Vaccinerade tidsserie"].filter((record) =>
   record.region.includes("Sverige")
@@ -68,30 +69,46 @@ export default function Home() {
             Statistik från vecka {total.newestFullyVaccinated.week}
           </p>
 
-          <Card className="mt-6">
-            <p className="text-xl font-medium leading-snug text-gray-500">
-              Antal vaccinerade i Sverige
-            </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card className="mt-6">
+              <p className="text-xl font-medium leading-snug text-gray-500">
+                Antal färdigvaccinerade
+              </p>
 
-            <div className="flex flex-col items-baseline sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
-              <p
-                className="mt-4 text-4xl font-bold tracking-tight text-green-600"
-                title="Färdigvaccinerade"
-              >
+              <p className="my-4 text-4xl font-bold tracking-tight text-green-600">
                 {total.newestFullyVaccinated.amount}
               </p>
 
-              <p
-                className="mt-4 text-4xl font-bold tracking-tight text-yellow-500"
-                title="Minst 1 dos"
-              >
+              <Progress
+                value={total.newestFullyVaccinated.share * 100}
+                className="bg-green-500"
+              />
+            </Card>
+
+            <Card className="mt-6">
+              <p className="text-xl font-medium leading-snug text-gray-500">
+                Antal med minst 1 dos
+              </p>
+
+              <p className="my-4 text-4xl font-bold tracking-tight text-yellow-500">
                 {total.newestAtLeast1.amount}
               </p>
-            </div>
-          </Card>
+
+              <Progress
+                value={total.newestAtLeast1.share * 100}
+                className="bg-yellow-400"
+              />
+            </Card>
+          </div>
+
+          <hr className="my-8" />
+
+          <label className="block text-lg font-medium tracking-wide text-gray-500">
+            Antal färdigvaccinerade / kommun
+          </label>
 
           <input
-            className="block w-full mt-6 border-gray-200 bg-none shadow-sm focus:ring-green-300 focus:border-green-300 sm:text-sm rounded-md"
+            className="block w-full mt-4 placeholder-gray-400 border-gray-200 bg-none shadow-sm focus:ring-green-300 focus:border-green-300 sm:text-sm rounded-md"
             onChange={(e) => setSearch(e.currentTarget.value)}
             placeholder="Sök på en kommun..."
             value={search}
@@ -117,6 +134,8 @@ export default function Home() {
               />
             ))}
         </div>
+
+        <hr className="my-8" />
 
         <div className="px-4 mt-4 sm:px-0">
           <Card>
