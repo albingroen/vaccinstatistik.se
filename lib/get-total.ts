@@ -8,7 +8,19 @@ export default function getTotal(data: Record[]) {
       record.year === new Date().getFullYear()
   );
 
-  const newest = maxBy(nationalValues, "week");
+  const atLeas1NationalValues = nationalValues.filter(
+    (record) => record.status === "Minst 1 dos"
+  );
 
-  return newest;
+  const fullyVaccinatedNationalValues = nationalValues.filter(
+    (record) => record.status === "Färdigvaccinerade"
+  );
+
+  const newestAtLeast1 = maxBy(atLeas1NationalValues, "week");
+  const newestFullyVaccinated = maxBy(fullyVaccinatedNationalValues, "week");
+
+  return {
+    newestFullyVaccinated,
+    newestAtLeast1,
+  };
 }

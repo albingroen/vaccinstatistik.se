@@ -2,11 +2,10 @@ name: "Update data"
 
 on:
   schedule:
-    - cron: '0 8 * * *'
+    - cron: "0 8 * * *"
 
 jobs:
   update-data:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -37,4 +36,3 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-

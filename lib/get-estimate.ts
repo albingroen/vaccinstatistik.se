@@ -1,32 +1,31 @@
-import moment from "moment";
-import { Record } from "../types";
-import getTotal from "./get-total";
+import data from "../vaccinations.json";
 
-export default function getEstimate(records: Record[]) {
-  const nationalRecords = records.filter((record) =>
+export default function getEstimate() {
+  // The amount of doses given nationally
+  const nationalDoses = data["Vaccinationer tidsserie"].filter((record) =>
     record.region.includes("Sverige")
   );
 
-  const lastAddition =
-    nationalRecords[nationalRecords.length - 1].amount -
-    nationalRecords[nationalRecords.length - 2].amount;
+  // The amount of doses given nationally last week
+  const dosesLastWeek =
+    nationalDoses[nationalDoses.length - 1].amount -
+    nationalDoses[nationalDoses.length - 2].amount;
 
-  // Get the current national amount of vaccinated people
-  const { share, amount, week } = getTotal(records);
-
-  const totalToTake = amount / share;
-  const leftToTake = totalToTake - amount;
-
-  const weeksLeft = leftToTake / lastAddition;
-
-  // Get the estimated date
-  const date = moment(`${new Date().getFullYear()}-01-01`).add(
-    Math.round(weeksLeft + week),
-    "weeks"
+  // The amount of people vaccinated nationally
+  const nationalVaccinated = data["Vaccinerade tidsserie"].filter(
+    (record) =>
+      record.region.includes("Sverige") && record.status === "Minst 1 dos"
   );
 
+  // Total amount of people to vaccinate
+  const peopleToVaccinate =
+    nationalVaccinated[0].amount / nationalVaccinated[0].share;
+
+  // Calculate total weeks left (Each person gets 2 doses)
+  const weeksLeft = (peopleToVaccinate * 2) / dosesLastWeek;
+
   return {
-    lastAddition,
-    date,
+    weeksLeft,
+    dosesLastWeek,
   };
 }

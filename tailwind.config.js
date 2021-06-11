@@ -1,18 +1,18 @@
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
-  mode: 'jit',
+  mode: "jit",
   theme: {
     extend: {},
   },
   variants: {
     extend: {},
-    scrollSnapMargin: ['responsive'],
-    scrollSnapAlign: ['responsive'],
+    scrollSnapMargin: ["responsive"],
+    scrollSnapAlign: ["responsive"],
   },
   plugins: [
-    require('tailwindcss-scroll-snap'),
-    require('tailwind-scrollbar'),
-    require('@tailwindcss/forms')
+    require("tailwindcss-scroll-snap"),
+    require("tailwind-scrollbar"),
+    require("@tailwindcss/forms"),
   ],
-}
+};

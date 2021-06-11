@@ -2,7 +2,7 @@
 @tailwind components;
 
 html {
-  @apply bg-gray-50 text-gray-900
+  @apply bg-gray-50 text-gray-900;
 }
 
 @tailwind utilities;

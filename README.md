@@ -6,7 +6,7 @@
 
 ## What is this?
 
-A site where you can see the total amount of vaccinations in Sweden, as well as per municipality, and a little trend graph. 
+A site where you can see the total amount of vaccinations in Sweden, as well as per municipality, and a little trend graph.
 
 ## How does it work?
 
@@ -15,4 +15,3 @@ The data gets fetched from the [Swedish vaccination registry](https://www.folkha
 ## Accessing the data
 
 If you want to play with the data you can access the json file [here](https://raw.githubusercontent.com/albingroen/vaccination-site/main/vaccinations.json) (this is the one that gets updated with fresh data once a day).
-

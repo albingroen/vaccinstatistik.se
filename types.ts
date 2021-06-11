@@ -1,1 +1,1 @@
-export type Record = any
+export type Record = any;

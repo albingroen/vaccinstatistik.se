@@ -1,4 +1,3 @@
-import getRegionTotals from "../lib/get-municipality-totals";
 import getTotal from "../lib/get-total";
 import data from "../vaccinations.json";
 import Card from "../components/Card";
@@ -16,6 +15,9 @@ import {
   Tooltip,
 } from "recharts";
 import { useState } from "react";
+import getEstimate from "../lib/get-estimate";
+import moment from "moment";
+import { sortBy } from "lodash";
 
 const nationalData = data["Vaccinerade tidsserie"].filter((record) =>
   record.region.includes("Sverige")
@@ -36,10 +38,9 @@ export default function Home() {
   const [search, setSearch] = useState<string>();
 
   // Data
-  const regionTotals = getRegionTotals(data["Vaccinerade tidsserie"]);
   const total = getTotal(data["Vaccinerade tidsserie"]);
 
-  // const estimate = getEstimate(data["Vaccinerade tidsserie"]);
+  const estimate = getEstimate();
 
   return (
     <>
@@ -63,39 +64,56 @@ export default function Home() {
 
       <div className="py-12 mx-auto sm:px-8 max-w-screen-lg">
         <div className="px-4 sm:px-0">
-          <p className="text-gray-500">Statistik från vecka {total.week}</p>
+          <p className="text-gray-500">
+            Statistik från vecka {total.newestFullyVaccinated.week}
+          </p>
 
-          <Card
-            suffix={`(~${Math.round(total.share * 100)}%)`}
-            description={`${total.amount.toLocaleString()}`}
-            heading="Antal vaccinerade i Sverige"
-            className="mt-6"
-          />
+          <Card className="mt-6">
+            <p className="text-xl font-medium leading-snug text-gray-500">
+              Antal vaccinerade i Sverige
+            </p>
+
+            <div className="flex items-baseline space-x-4">
+              <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
+                {total.newestFullyVaccinated.amount}
+              </p>
+
+              <p className="mt-4 text-4xl font-bold tracking-tight text-yellow-500">
+                {total.newestAtLeast1.amount}
+              </p>
+            </div>
+          </Card>
 
           <input
             className="block w-full mt-6 border-gray-200 bg-none shadow-sm focus:ring-green-300 focus:border-green-300 sm:text-sm rounded-md"
             onChange={(e) => setSearch(e.currentTarget.value)}
-            placeholder="Sök på en region..."
+            placeholder="Sök på en kommun..."
             value={search}
             type="text"
           />
         </div>
 
         <div className="w-full p-4 overflow-auto whitespace-nowrap snap snap-x scrollbar scrollbar-thumb-gray-300 scrollbar-track-gray-100 scrollbar-thin">
-          {regionTotals
+          {sortBy(data["Vaccinerade kommun"], "amountFull")
+            .reverse()
             .filter((record) =>
               search
-                ? record.region.toLowerCase().includes(search.toLowerCase())
+                ? record.name.toLowerCase().includes(search.toLowerCase())
                 : true
             )
             .map((record) => (
               <Card
-                className="inline-block mr-4 w-72 snap-ml-4 sm:snap-ml-0.5 snap-center sm:snap-start"
-                suffix={`(~${Math.round(record.share * 100)}%)`}
-                description={record.amount.toLocaleString()}
-                heading={record.region}
-                key={record.region}
-              />
+                className="inline-block mr-4 snap-ml-4 sm:snap-ml-0.5 snap-center w-48 sm:snap-start"
+                key={record.name}
+              >
+                <p className="text-xl font-medium leading-snug text-gray-500">
+                  {record.name}
+                </p>
+
+                <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
+                  {record.amountFull}
+                </p>
+              </Card>
             ))}
         </div>
 
@@ -110,22 +128,21 @@ export default function Home() {
                 data={nationalData
                   .filter((record) => record.status === "Färdigvaccinerade")
                   .map((record) => {
-                    const atLeast1 =
-                      nationalData.find(
-                        (subRecord) =>
-                          subRecord.status === "Minst 1 dos" &&
-                          subRecord.week === record.week
-                      )?.amount - record.amount;
+                    const atLeast1 = nationalData.find(
+                      (subRecord) =>
+                        subRecord.status === "Minst 1 dos" &&
+                        subRecord.week === record.week
+                    )?.amount;
 
                     return {
                       ...record,
-                      "2 doser": record.amount,
-                      "1 dos": atLeast1,
+                      Färdigvaccinerad: record.amount,
+                      "Minst 1 dos": atLeast1,
                     };
                   })}
               >
                 <Area
-                  dataKey="1 dos"
+                  dataKey="Minst 1 dos"
                   stroke="#F59E0B"
                   fillOpacity={0.25}
                   type="monotone"
@@ -133,7 +150,7 @@ export default function Home() {
                 />
 
                 <Area
-                  dataKey="2 doser"
+                  dataKey="Färdigvaccinerad"
                   stroke="#82ca9d"
                   fillOpacity={1}
                   type="monotone"
@@ -179,17 +196,16 @@ export default function Home() {
                 data={nationalAgeData
                   .filter((record) => record.status === "Färdigvaccinerade")
                   .map((record) => {
-                    const atLeast1 =
-                      nationalAgeData.find(
-                        (subRecord) =>
-                          subRecord.status === "Minst 1 dos" &&
-                          subRecord.age === record.age
-                      )?.amount - record.amount;
+                    const atLeast1 = nationalAgeData.find(
+                      (subRecord) =>
+                        subRecord.status === "Minst 1 dos" &&
+                        subRecord.age === record.age
+                    )?.amount;
 
                     return {
                       ...record,
-                      "2 doser": record.amount,
-                      "1 dos": atLeast1,
+                      Färdigvaccinerad: record.amount,
+                      "Minst 1 dos": atLeast1,
                     };
                   })}
               >
@@ -216,8 +232,12 @@ export default function Home() {
                     "Antal",
                   ]}
                 />
-                <Bar maxBarSize={50} dataKey="1 dos" fill="#F59E0B" />
-                <Bar maxBarSize={50} dataKey="2 doser" fill="#82ca9d" />
+                <Bar maxBarSize={50} dataKey="Minst 1 dos" fill="#F59E0B" />
+                <Bar
+                  dataKey="Färdigvaccinerad"
+                  maxBarSize={50}
+                  fill="#82ca9d"
+                />
                 <Legend />
               </BarChart>
             </ResponsiveContainer>
@@ -225,16 +245,19 @@ export default function Home() {
 
           {/* <Card className="mt-6"> */}
           {/*   <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide"> */}
-          {/*     ESTIMERAD MÅLPUNKT */}
+          {/*     NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT) */}
           {/*   </h2> */}
           {/*  */}
           {/*   <h3 className="mt-4 text-4xl font-semibold text-gray-500"> */}
-          {/*     {estimate.date.format("DD MMM YYYY")} */}
+          {/*     {moment() */}
+          {/*       .locale("sv") */}
+          {/*       .add(estimate.weeksLeft, "weeks") */}
+          {/*       .format("DD MMM YYYY")} */}
           {/*   </h3> */}
           {/*  */}
           {/*   <p className="mt-2 text-gray-500"> */}
-          {/*     Med en beräkning på {estimate.lastAddition.toLocaleString()}{" "} */}
-          {/*     vaccinerade / vecka. */}
+          {/*     Med en beräkning på {estimate.dosesLastWeek.toLocaleString()}{" "} */}
+          {/*     doser / vecka. */}
           {/*   </p> */}
           {/* </Card> */}
 
