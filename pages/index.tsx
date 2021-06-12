@@ -222,12 +222,13 @@ export default function Home() {
                       (subRecord) =>
                         subRecord.status === "Minst 1 dos" &&
                         subRecord.age === record.age
-                    )?.amount;
+                    );
 
                     return {
                       ...record,
                       Färdigvaccinerad: record.amount,
-                      "Minst 1 dos": atLeast1,
+                      "Minst 1 dos": atLeast1.amount,
+                      shareAtLeast1: atLeast1.share,
                     };
                   })}
               >
@@ -249,10 +250,18 @@ export default function Home() {
                   tickSize={5}
                 />
                 <Tooltip
-                  formatter={(value: number) => [
-                    value.toLocaleString(),
-                    "Antal",
-                  ]}
+                  formatter={(
+                    value: number,
+                    type: string,
+                    { payload: { shareAtLeast1, share } }
+                  ) => {
+                    return [
+                      `${value.toLocaleString()} (${Math.round(
+                        (type === "Minst 1 dos" ? shareAtLeast1 : share) * 100
+                      )}%)`,
+                      "Antal",
+                    ];
+                  }}
                 />
                 <Bar maxBarSize={50} dataKey="Minst 1 dos" fill="#F59E0B" />
                 <Bar
