@@ -300,15 +300,33 @@ export default function Home() {
           {/* </Card> */}
 
           <p className="mt-6 text-sm leading-relaxed text-gray-500 sm:text-normal">
-            Den här sidan hämtar data från{" "}
+            Sidan hämtar data från{" "}
             <a
-              className="text-blue-500 underline"
               href="https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/statistik-over-registrerade-vaccinationer-covid-19/"
+              className="text-blue-500 underline"
             >
               Folkhälsomyndighetens vaccinationsregister
             </a>{" "}
             och uppdateras därefter.
           </p>
+
+          <hr className="mt-20 mb-8 dark:border-gray-800" />
+
+          <a
+            href="https://albingroen.com"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <img
+              src="https://res.cloudinary.com/albin-groen/image/upload/v1620555918/signature_gy601x.png"
+              className="block w-56 mt-6 opacity-50 transition hover:opacity-100 dark:hidden"
+            />
+
+            <img
+              src="https://res.cloudinary.com/albin-groen/image/upload/v1620556925/signature-white_s1l1w2.png"
+              className="hidden w-56 mt-6 opacity-50 transition hover:opacity-100 dark:block"
+            />
+          </a>
         </div>
       </div>
     </>
