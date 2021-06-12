@@ -75,7 +75,7 @@ export default function Home() {
                 Antal färdigvaccinerade
               </p>
 
-              <p className="my-4 text-4xl font-bold tracking-tight text-green-600">
+              <p className="my-4 text-4xl font-bold tracking-tight text-green-600 dark:text-green-500">
                 {total.newestFullyVaccinated.amount.toLocaleString()}
               </p>
 
@@ -90,25 +90,25 @@ export default function Home() {
                 Antal med minst 1 dos
               </p>
 
-              <p className="my-4 text-4xl font-bold tracking-tight text-yellow-500">
+              <p className="my-4 text-4xl font-bold tracking-tight text-yellow-500 dark:text-yellow-600">
                 {total.newestAtLeast1.amount.toLocaleString()}
               </p>
 
               <Progress
+                className="bg-yellow-400 dark:bg-yellow-500"
                 value={total.newestAtLeast1.share * 100}
-                className="bg-yellow-400"
               />
             </Card>
           </div>
 
-          <hr className="my-8" />
+          <hr className="my-8 dark:border-gray-800" />
 
           <label className="block text-lg font-medium tracking-wide text-gray-500">
             Antal färdigvaccinerade / kommun
           </label>
 
           <input
-            className="block w-full mt-4 placeholder-gray-400 border-gray-200 bg-none shadow-sm focus:ring-green-300 focus:border-green-300 sm:text-sm rounded-md"
+            className="block w-full mt-4 placeholder-gray-400 border-gray-200 dark:placeholder-gray-600 dark:border-gray-700 bg-none dark:bg-gray-900 shadow-sm focus:ring-green-300 focus:border-green-300 dark:focus:ring-gray-500 dark:focus:border-gray-500 sm:text-sm rounded-md"
             onChange={(e) => setSearch(e.currentTarget.value)}
             placeholder="Sök på en kommun..."
             value={search}
@@ -116,7 +116,7 @@ export default function Home() {
           />
         </div>
 
-        <div className="w-full p-4 overflow-auto whitespace-nowrap snap snap-x scrollbar scrollbar-thumb-gray-300 scrollbar-track-gray-100 scrollbar-thin">
+        <div className="w-full p-4 overflow-auto whitespace-nowrap snap snap-x scrollbar scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-700 scrollbar-track-gray-100 dark:scrollbar-track-gray-800 scrollbar-thin">
           {sortBy(data["Vaccinerade kommun"], "amountFull")
             .reverse()
             .filter((record) =>
@@ -137,7 +137,7 @@ export default function Home() {
             ))}
         </div>
 
-        <hr className="my-8" />
+        <hr className="my-8 dark:border-gray-800" />
 
         <div className="px-4 mt-4 sm:px-0">
           <Card>
@@ -180,22 +180,27 @@ export default function Home() {
                 />
 
                 <XAxis
-                  style={{ opacity: 0.5 }}
                   tickMargin={5}
+                  opacity={0.5}
                   dataKey="week"
                   tickSize={5}
                 />
                 <YAxis
                   tickFormatter={(value) => `${value / 1000000} M`}
-                  style={{ opacity: 0.5 }}
                   tickMargin={5}
+                  opacity={0.5}
                   tickSize={5}
                 />
 
                 <Legend />
 
-                <CartesianGrid strokeDasharray="3 3" style={{ opacity: 0.5 }} />
+                <CartesianGrid
+                  className="opacity-50 dark:opacity-25"
+                  strokeDasharray="3 3"
+                />
                 <Tooltip
+                  contentStyle={{ borderRadius: 5 }}
+                  labelStyle={{ color: "#555" }}
                   formatter={(value: number) => [
                     value.toLocaleString(),
                     "Antal",
@@ -233,23 +238,25 @@ export default function Home() {
                   })}
               >
                 <CartesianGrid
+                  className="opacity-50 dark:opacity-25"
                   strokeDasharray="3 3"
-                  style={{ opacity: 0.75 }}
                 />
 
                 <XAxis
-                  style={{ opacity: 0.5 }}
+                  opacity={0.5}
                   tickMargin={5}
                   dataKey="age"
                   tickSize={5}
                 />
                 <YAxis
                   tickFormatter={(value) => `${value / 1000000} M`}
-                  style={{ opacity: 0.5 }}
+                  opacity={0.5}
                   tickMargin={5}
                   tickSize={5}
                 />
                 <Tooltip
+                  contentStyle={{ borderRadius: 5 }}
+                  labelStyle={{ color: "#555" }}
                   formatter={(
                     value: number,
                     type: string,

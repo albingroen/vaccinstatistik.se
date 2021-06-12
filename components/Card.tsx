@@ -20,7 +20,7 @@ export default function Card({
     <div
       {...rest}
       className={[
-        "px-4 py-5 bg-white rounded-md shadow sm:rounded-lg sm:p-6",
+        "px-4 py-5 bg-white dark:bg-gray-800 rounded-md shadow sm:rounded-lg sm:p-6",
         rest.className,
       ]
         .filter(Boolean)
@@ -33,7 +33,7 @@ export default function Card({
           </p>
 
           <div className="flex items-baseline space-x-3">
-            <p className="mt-4 text-4xl font-bold tracking-tight text-green-600">
+            <p className="mt-4 text-4xl font-bold tracking-tight text-green-600 dark:text-green-500">
               {description}
             </p>
 
