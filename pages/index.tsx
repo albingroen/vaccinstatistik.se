@@ -256,7 +256,7 @@ export default function Home() {
                     { payload: { shareAtLeast1, share } }
                   ) => {
                     return [
-                      `${value.toLocaleString()} (${Math.round(
+                      `${value.toLocaleString()} (~${Math.round(
                         (type === "Minst 1 dos" ? shareAtLeast1 : share) * 100
                       )}%)`,
                       "Antal",
