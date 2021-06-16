@@ -281,23 +281,23 @@ export default function Home() {
             </ResponsiveContainer>
           </Card>
 
-          {/* <Card className="mt-6"> */}
-          {/*   <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide"> */}
-          {/*     NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT) */}
-          {/*   </h2> */}
-          {/*  */}
-          {/*   <h3 className="mt-4 text-4xl font-semibold text-gray-500"> */}
-          {/*     {moment() */}
-          {/*       .locale("sv") */}
-          {/*       .add(estimate.weeksLeft, "weeks") */}
-          {/*       .format("DD MMM YYYY")} */}
-          {/*   </h3> */}
-          {/*  */}
-          {/*   <p className="mt-2 text-gray-500"> */}
-          {/*     Med en beräkning på {estimate.dosesLastWeek.toLocaleString()}{" "} */}
-          {/*     doser / vecka. */}
-          {/*   </p> */}
-          {/* </Card> */}
+          <Card className="mt-6">
+            <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide">
+              NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT)
+            </h2>
+
+            <h3 className="mt-4 text-4xl font-semibold text-gray-500">
+              {moment()
+                .locale("sv")
+                .add(estimate.weeksLeft, "weeks")
+                .format("DD MMM YYYY")}
+            </h3>
+
+            <p className="mt-2 text-gray-500">
+              Med en beräkning på {estimate.dosesLastWeek.toLocaleString()}{" "}
+              doser / vecka.
+            </p>
+          </Card>
 
           <p className="mt-6 text-sm leading-relaxed text-gray-500 sm:text-normal">
             Sidan hämtar data från{" "}
