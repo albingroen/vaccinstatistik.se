@@ -286,7 +286,7 @@ export default function Home() {
               NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT)
             </h2>
 
-            <h3 className="mt-4 text-4xl font-semibold text-gray-500 dark:text-gray-400">
+            <h3 className="mt-4 text-4xl font-semibold text-gray-500 dark:text-gray-300">
               {moment()
                 .locale("sv")
                 .add(estimate.weeksLeft, "weeks")
