@@ -282,11 +282,11 @@ export default function Home() {
           </Card>
 
           <Card className="mt-6">
-            <h2 className="text-sm font-medium text-gray-500 uppercase trackgin-wide">
+            <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
               NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT)
             </h2>
 
-            <h3 className="mt-4 text-4xl font-semibold text-gray-500">
+            <h3 className="mt-4 text-4xl font-semibold text-gray-500 dark:text-gray-400">
               {moment()
                 .locale("sv")
                 .add(estimate.weeksLeft, "weeks")
