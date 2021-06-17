@@ -6,6 +6,9 @@ export default function getEstimate() {
     record.region.includes("Sverige")
   );
 
+  // Total amount of doses
+  const totalDoses = nationalDoses[nationalDoses.length - 1].amount;
+
   // The amount of doses given nationally last week
   const dosesLastWeek =
     nationalDoses[nationalDoses.length - 1].amount -
@@ -22,7 +25,7 @@ export default function getEstimate() {
     nationalVaccinated[0].amount / nationalVaccinated[0].share;
 
   // Calculate total weeks left (Each person gets 2 doses)
-  const weeksLeft = (peopleToVaccinate * 2) / dosesLastWeek;
+  const weeksLeft = (peopleToVaccinate * 2 - totalDoses) / dosesLastWeek;
 
   return {
     weeksLeft,
