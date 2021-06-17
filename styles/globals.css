@@ -5,4 +5,14 @@ html {
   @apply text-gray-900 bg-gray-50 dark:bg-gray-900 dark:text-gray-100;
 }
 
+.pie-cell {
+  stroke: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .pie-cell {
+    stroke: #1f2937;
+  }
+}
+
 @tailwind utilities;

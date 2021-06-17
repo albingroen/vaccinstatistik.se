@@ -3,6 +3,8 @@ import data from "../vaccinations.json";
 import Card from "../components/Card";
 import Head from "next/head";
 import {
+  PieChart,
+  Pie,
   AreaChart,
   BarChart,
   Bar,
@@ -13,6 +15,7 @@ import {
   XAxis,
   YAxis,
   Tooltip,
+  Cell,
 } from "recharts";
 import { useState } from "react";
 import getEstimate from "../lib/get-estimate";
@@ -281,7 +284,109 @@ export default function Home() {
             </ResponsiveContainer>
           </Card>
 
-          <Card className="mt-6">
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+            <Card>
+              <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
+                Vaccinerade / Kön (Minst 1 dos)
+              </h2>
+
+              <ResponsiveContainer className="mt-4" height={175}>
+                <PieChart>
+                  <Pie
+                    data={data["Vaccinerade kön"].filter(
+                      (record) =>
+                        record.status === "Minst 1 dos" &&
+                        record.sex !== "Totalt"
+                    )}
+                    dataKey="amount"
+                    outerRadius={50}
+                    fill="#F59E0B"
+                    nameKey="sex"
+                    cx="50%"
+                    cy="50%"
+                  >
+                    {data["Vaccinerade kön"]
+                      .filter(
+                        (record) =>
+                          record.status === "Minst 1 dos" &&
+                          record.sex !== "Totalt"
+                      )
+                      .map((record, index) => {
+                        return (
+                          <Cell
+                            fill={
+                              record.sex === "Kvinnor" ? "#F59E0B" : "#73603c"
+                            }
+                            key={`cell-${index}`}
+                            className="pie-cell"
+                            strokeWidth={3}
+                          />
+                        );
+                      })}
+                  </Pie>
+
+                  <Tooltip
+                    formatter={(value) => value.toLocaleString()}
+                    contentStyle={{ borderRadius: 5 }}
+                  />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            </Card>
+
+            <Card>
+              <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
+                Vaccinerade / Kön (Färdigvaccinerade)
+              </h2>
+
+              <ResponsiveContainer className="mt-4" height={175}>
+                <PieChart>
+                  <Pie
+                    data={data["Vaccinerade kön"].filter(
+                      (record) =>
+                        record.status === "Färdigvaccinerade" &&
+                        record.sex !== "Totalt"
+                    )}
+                    dataKey="amount"
+                    outerRadius={50}
+                    fill="#F59E0B"
+                    nameKey="sex"
+                    cx="50%"
+                    cy="50%"
+                  >
+                    {data["Vaccinerade kön"]
+                      .filter(
+                        (record) =>
+                          record.status === "Färdigvaccinerade" &&
+                          record.sex !== "Totalt"
+                      )
+                      .map((record, index) => {
+                        return (
+                          <Cell
+                            fill={
+                              record.sex === "Kvinnor" ? "#10B981" : "#2a706b"
+                            }
+                            key={`cell-${index}`}
+                            className="pie-cell"
+                            strokeWidth={3}
+                          />
+                        );
+                      })}
+                  </Pie>
+
+                  <Tooltip
+                    formatter={(value) => value.toLocaleString()}
+                    contentStyle={{ borderRadius: 5 }}
+                  />
+                  <Legend />
+                </PieChart>
+              </ResponsiveContainer>
+            </Card>
+          </div>
+
+          <hr className="my-8 dark:border-gray-800" />
+
+          <Card>
             <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
               NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT)
             </h2>
