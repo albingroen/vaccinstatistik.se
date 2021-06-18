@@ -418,6 +418,7 @@ export default function Home() {
           <hr className="mt-20 mb-8 dark:border-gray-800" />
 
           <a
+            aria-label="Albin Groen's website"
             href="https://albingroen.com"
             rel="noopener noreferrer"
             target="_blank"
@@ -425,11 +426,15 @@ export default function Home() {
             <img
               src="https://res.cloudinary.com/albin-groen/image/upload/v1620555918/signature_gy601x.png"
               className="block w-56 mt-6 opacity-50 transition hover:opacity-100 dark:hidden"
+              alt="Albin Groen signature"
+              width={230}
             />
 
             <img
               src="https://res.cloudinary.com/albin-groen/image/upload/v1620556925/signature-white_s1l1w2.png"
               className="hidden w-56 mt-6 opacity-50 transition hover:opacity-100 dark:block"
+              alt="Albin Groen signature"
+              width={230}
             />
           </a>
         </div>
