@@ -1,3 +1,4 @@
+import moment from "moment";
 import data from "../vaccinations.json";
 
 export default function getEstimate() {
@@ -28,7 +29,11 @@ export default function getEstimate() {
   const weeksLeft = (peopleToVaccinate * 2 - totalDoses) / dosesLastWeek;
 
   return {
-    weeksLeft,
+    fromDate: moment(`${new Date().getFullYear()}-01-01`).add(
+      nationalDoses[nationalDoses.length - 1].week,
+      "weeks"
+    ),
     dosesLastWeek,
+    weeksLeft,
   };
 }
