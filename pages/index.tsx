@@ -20,7 +20,7 @@ import {
 import { useState } from "react";
 import getEstimate from "../lib/get-estimate";
 import moment from "moment";
-import { sortBy } from "lodash";
+import { sortBy, upperFirst } from "lodash";
 import Progress from "../components/Progress";
 
 const nationalData = data["Vaccinerade tidsserie"].filter((record) =>
@@ -375,7 +375,7 @@ export default function Home() {
                   </Pie>
 
                   <Tooltip
-                    formatter={(value) => value.toLocaleString()}
+                    formatter={(value: number) => value.toLocaleString()}
                     contentStyle={{ borderRadius: 5 }}
                   />
                   <Legend />
@@ -392,10 +392,12 @@ export default function Home() {
             </h2>
 
             <h3 className="mt-4 text-4xl font-semibold text-gray-500 dark:text-gray-300">
-              {moment(estimate.fromDate)
-                .locale("sv")
-                .add(estimate.weeksLeft, "weeks")
-                .format("DD MMM YYYY")}
+              {upperFirst(
+                moment(estimate.fromDate)
+                  .locale("sv")
+                  .add(estimate.weeksLeft, "weeks")
+                  .format("MMMM YYYY")
+              )}
             </h3>
 
             <p className="mt-2 text-gray-500">
