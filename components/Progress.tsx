@@ -11,7 +11,7 @@ export default function Progress({ value, className }: Progress) {
       </div>
 
       <span className="text-gray-400 dark:text-gray-500">
-        ~{Math.round(value)}%
+        {Math.round(value)}%
       </span>
     </div>
   );
