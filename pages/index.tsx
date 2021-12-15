@@ -18,10 +18,7 @@ import {
   Cell,
 } from "recharts";
 import { useState } from "react";
-import getEstimate from "../lib/get-estimate";
-import moment from "moment";
-import { sortBy, upperFirst } from "lodash";
-import Progress from "../components/Progress";
+import { sortBy } from "lodash";
 
 const nationalData = data["Vaccinerade tidsserie"].filter((record) =>
   record.region.includes("Sverige")
@@ -43,8 +40,6 @@ export default function Home() {
 
   // Data
   const total = getTotal(data["Vaccinerade tidsserie"]);
-
-  const estimate = getEstimate();
 
   return (
     <>
@@ -70,38 +65,18 @@ export default function Home() {
       <div className="py-12 mx-auto sm:px-8 max-w-screen-lg">
         <div className="px-4 sm:px-0">
           <p className="text-gray-500">
-            Statistik från vecka {total.newestFullyVaccinated.week}
+            Statistik från vecka {total.newestAtLeast1.week}
           </p>
 
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card>
-              <p className="text-xl font-medium leading-snug text-gray-500">
-                Antal färdigvaccinerade
-              </p>
-
-              <p className="my-4 text-4xl font-bold tracking-tight text-green-600 dark:text-green-500">
-                {total.newestFullyVaccinated.amount.toLocaleString()}
-              </p>
-
-              <Progress
-                value={total.newestFullyVaccinated.share * 100}
-                className="bg-green-500"
-              />
-            </Card>
-
+          <div className="mt-6">
             <Card>
               <p className="text-xl font-medium leading-snug text-gray-500">
                 Antal med minst 1 dos
               </p>
 
-              <p className="my-4 text-4xl font-bold tracking-tight text-yellow-500 dark:text-yellow-600">
+              <p className="mt-4 text-4xl font-bold tracking-tight text-yellow-500 dark:text-yellow-600">
                 {total.newestAtLeast1.amount.toLocaleString()}
               </p>
-
-              <Progress
-                className="bg-yellow-400 dark:bg-yellow-500"
-                value={total.newestAtLeast1.share * 100}
-              />
             </Card>
           </div>
 
@@ -152,35 +127,17 @@ export default function Home() {
               <AreaChart
                 margin={{ top: 10, right: 5, left: 0, bottom: 0 }}
                 data={nationalData
-                  .filter((record) => record.status === "Färdigvaccinerade")
-                  .map((record) => {
-                    const atLeast1 = nationalData.find(
-                      (subRecord) =>
-                        subRecord.status === "Minst 1 dos" &&
-                        subRecord.week === record.week
-                    )?.amount;
-
-                    return {
-                      ...record,
-                      Färdigvaccinerad: record.amount,
-                      "Minst 1 dos": atLeast1,
-                    };
-                  })}
+                  .filter((record) => record.status === "Minst 1 dos")
+                  .map((record) => ({
+                    ...record,
+                    "Minst 1 dos": record.amount,
+                  }))}
               >
                 <Area
                   dataKey="Minst 1 dos"
                   stroke="#F59E0B"
-                  fillOpacity={0.25}
                   type="monotone"
                   fill="#F59E0B"
-                />
-
-                <Area
-                  dataKey="Färdigvaccinerad"
-                  stroke="#82ca9d"
-                  fillOpacity={1}
-                  type="monotone"
-                  fill="#82ca9d"
                 />
 
                 <XAxis
@@ -225,21 +182,11 @@ export default function Home() {
                 width={730}
                 height={250}
                 data={nationalAgeData
-                  .filter((record) => record.status === "Färdigvaccinerade")
-                  .map((record) => {
-                    const atLeast1 = nationalAgeData.find(
-                      (subRecord) =>
-                        subRecord.status === "Minst 1 dos" &&
-                        subRecord.age === record.age
-                    );
-
-                    return {
-                      ...record,
-                      Färdigvaccinerad: record.amount,
-                      "Minst 1 dos": atLeast1.amount,
-                      shareAtLeast1: atLeast1.share,
-                    };
-                  })}
+                  .filter((record) => record.status === "Minst 1 dos")
+                  .map((record) => ({
+                    ...record,
+                    "Minst 1 dos": record.amount,
+                  }))}
               >
                 <CartesianGrid
                   className="opacity-50 dark:opacity-25"
@@ -266,75 +213,16 @@ export default function Home() {
                     type: string,
                     { payload: { shareAtLeast1, share } }
                   ) => {
-                    return [
-                      `${value.toLocaleString()} (${Math.round(
-                        (type === "Minst 1 dos" ? shareAtLeast1 : share) * 100
-                      )}%)`,
-                      "Antal",
-                    ];
+                    return [`${value.toLocaleString()}`, "Antal"];
                   }}
                 />
                 <Bar maxBarSize={50} dataKey="Minst 1 dos" fill="#F59E0B" />
-                <Bar
-                  dataKey="Färdigvaccinerad"
-                  maxBarSize={50}
-                  fill="#82ca9d"
-                />
                 <Legend />
               </BarChart>
             </ResponsiveContainer>
           </Card>
 
-          <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card>
-              <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
-                Vaccinerade / Kön (Färdigvaccinerade)
-              </h2>
-
-              <ResponsiveContainer className="mt-4" height={175}>
-                <PieChart>
-                  <Pie
-                    data={data["Vaccinerade kön"].filter(
-                      (record) =>
-                        record.status === "Färdigvaccinerade" &&
-                        record.sex !== "Totalt"
-                    )}
-                    dataKey="amount"
-                    outerRadius={50}
-                    fill="#F59E0B"
-                    nameKey="sex"
-                    cx="50%"
-                    cy="50%"
-                  >
-                    {data["Vaccinerade kön"]
-                      .filter(
-                        (record) =>
-                          record.status === "Färdigvaccinerade" &&
-                          record.sex !== "Totalt"
-                      )
-                      .map((record, index) => {
-                        return (
-                          <Cell
-                            fill={
-                              record.sex === "Kvinnor" ? "#10B981" : "#2a706b"
-                            }
-                            key={`cell-${index}`}
-                            className="pie-cell"
-                            strokeWidth={3}
-                          />
-                        );
-                      })}
-                  </Pie>
-
-                  <Tooltip
-                    formatter={(value: number) => value.toLocaleString()}
-                    contentStyle={{ borderRadius: 5 }}
-                  />
-                  <Legend />
-                </PieChart>
-              </ResponsiveContainer>
-            </Card>
-
+          <div className="mt-6">
             <Card>
               <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
                 Vaccinerade / Kön (Minst 1 dos)
@@ -384,28 +272,6 @@ export default function Home() {
               </ResponsiveContainer>
             </Card>
           </div>
-
-          <hr className="my-8 dark:border-gray-800" />
-
-          <Card>
-            <h2 className="text-sm font-medium tracking-wide text-gray-500 uppercase">
-              NÄR ÄR ALLA FÄRDIGVACCINERADE (ESTIMAT)
-            </h2>
-
-            <h3 className="mt-4 text-4xl font-semibold text-gray-500 dark:text-gray-300">
-              {upperFirst(
-                moment(estimate.fromDate)
-                  .locale("sv")
-                  .add(estimate.weeksLeft, "weeks")
-                  .format("MMMM YYYY")
-              )}
-            </h3>
-
-            <p className="mt-2 text-gray-500">
-              Med en beräkning på {estimate.dosesLastWeek.toLocaleString()}{" "}
-              doser / vecka.
-            </p>
-          </Card>
 
           <p className="mt-6 text-sm leading-relaxed text-gray-500 sm:text-normal">
             Sidan hämtar data från{" "}
